@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>
+    <declare-styleable name="MyRing">
+        <attr name="src" format="reference"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+
+     <declare-styleable name="circleProgressBar">
+        <attr name="newCircleColor" format="color" />
+        <attr name="newCircleProgressColor" format="color" />
+        <attr name="newCircleWidth" format="dimension"></attr>
+        <attr name="newTextColor" format="color" />
+        <attr name="newTextSize" format="dimension" />
+        <attr name="newMax" format="integer"></attr>
+        <attr name="newTextIsDisplayable" format="boolean"></attr>
+        <attr name="newCircleMargin" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <!-- GameStageView-->
+    <declare-styleable name="GameStageView">
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemTextSize" format="dimension" />
+        <attr name="itemDividerColor" format="color" />
+
+        <attr name="itemDividerHorizontalWidth" format="dimension" />
+        <attr name="itemDividerHorizontalHeight" format="dimension" />
+        <attr name="itemDividerVerticalWidth" format="dimension" />
+        <attr name="itemDividerVerticalHeight" format="dimension" />
+
+        <attr name="totalColumns" format="integer" />
+        <attr name="lineColumns" format="integer" />
+        <attr name="nowPosition" format="integer" />
+
+        <attr name="itemNormalTextColor" format="color" />
+        <attr name="itemLockTextColor" format="color" />
+        <attr name="itemNormalBgColor" format="color" />
+        <attr name="itemLockBgColor" format="color" />
+
+        <attr name="InnerPaddingLeft" format="dimension" />
+        <attr name="InnerPaddingTop" format="dimension" />
+        <attr name="InnerPaddingRight" format="dimension" />
+
+        <attr name="itemHeadSrc" format="reference" />
+        <attr name="itemHeadSize" format="dimension" />
+        <attr name="itemHeadStrokeColor" format="color" />
+        <attr name="itemHeadStrokeWidth" format="dimension" />
+        <attr name="itemHeadArrowColor" format="color" />
+        <attr name="itemHeadArrowTopPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectWordTextView">
+        <attr name="selectColor" format="color" />
+    </declare-styleable>
+
+</resources> 
+

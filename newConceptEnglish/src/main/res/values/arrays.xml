@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="context_menu_comment">
+        <item>回复当前选中项</item>
+        <item>他的个人主页</item>
+    </string-array>
+<!--    <integer-array name="headline_video_category_names">-->
+<!--        <item>@integer/headline_bbc_category_code_all</item>-->
+<!--        <item>@integer/headline_bbc_category_code_bbc_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_six_minute</item>-->
+<!--        <item>@integer/headline_bbc_category_code_news_words</item>-->
+<!--        <item>@integer/headline_bbc_category_code_native</item>-->
+<!--        <item>@integer/headline_bbc_category_code_economist</item>-->
+<!--        <item>@integer/headline_bbc_category_code_itv_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_skype_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_working</item>-->
+<!--    </integer-array>-->
+
+<!--    <integer-array name="headline_cnn_category_codes">-->
+<!--        <item>@integer/headline_bbc_category_code_all</item>-->
+<!--        <item>@integer/headline_bbc_category_code_bbc_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_six_minute</item>-->
+<!--        <item>@integer/headline_bbc_category_code_news_words</item>-->
+<!--        <item>@integer/headline_bbc_category_code_native</item>-->
+<!--        <item>@integer/headline_bbc_category_code_economist</item>-->
+<!--        <item>@integer/headline_bbc_category_code_itv_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_skype_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_working</item>-->
+<!--    </integer-array>-->
+
+<!--    <integer-array name="headline_csvoa_category_codes">-->
+<!--        <item>@integer/headline_bbc_category_code_all</item>-->
+<!--        <item>@integer/headline_bbc_category_code_bbc_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_six_minute</item>-->
+<!--        <item>@integer/headline_bbc_category_code_news_words</item>-->
+<!--        <item>@integer/headline_bbc_category_code_native</item>-->
+<!--        <item>@integer/headline_bbc_category_code_economist</item>-->
+<!--        <item>@integer/headline_bbc_category_code_itv_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_skype_news</item>-->
+<!--        <item>@integer/headline_bbc_category_code_working</item>-->
+<!--    </integer-array>-->
+
+    <!--书虫-->
+    <string-array name="BookwormLevel">
+        <item>入门级</item>
+        <item>一级</item>
+        <item>二级</item>
+        <item>三级</item>
+        <item>四级</item>
+        <item>五级</item>
+        <item>六级</item>
+    </string-array>
+    <!--剑桥彩绘-->
+    <string-array name="NewCamstoryColor">
+        <item>入门级</item>
+        <item>一级</item>
+        <item>二级</item>
+        <item>三级</item>
+        <item>四级</item>
+        <item>五级</item>
+    </string-array>
+    <!--剑桥非彩绘-->
+    <string-array name="NewCamstory">
+        <item>入门级</item>
+        <item>一级</item>
+        <item>二级</item>
+        <item>三级</item>
+        <item>四级</item>
+        <item>五级</item>
+        <item>六级</item>
+    </string-array>
+
+</resources>

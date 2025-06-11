@@ -1,0 +1,311 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.mob.sdk'
+
+//腾讯多渠道打包
+apply plugin: 'com.tencent.vasdolly'
+
+android {
+    signingConfigs {
+        relese {
+            keyAlias 'android.keystore'
+            keyPassword 'buaaiyuba'
+            storeFile file('../iyuba_android.keystore')
+            storePassword 'buaaiyuba'
+        }
+        debug {
+            keyAlias 'android.keystore'
+            keyPassword 'buaaiyuba'
+            storeFile file('../iyuba_android.keystore')
+            storePassword 'buaaiyuba'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    defaultConfig {
+        applicationId "com.iyuba.concept2"
+
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        flavorDimensions "app"
+
+        ndk {
+            moduleName "Hello"          //生成的so名字
+            abiFilters 'arm64-v8a', 'armeabi-v7a'//其他的
+//            abiFilters 'arm64-v8a'//魅族的
+        }
+        signingConfig signingConfigs.relese
+
+    }
+    // Other stuffs
+    dexOptions {
+        //让它不要对Lib做preDexing
+        preDexLibraries = false
+        //开启incremental dexing,优化编译效率，这个功能android studio默认是关闭的。
+        incremental true
+        javaMaxHeapSize "6g"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.relese
+            //资源混淆(配合下边的文件处理)
+            minifyEnabled false
+            //无用资源清除
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        debug {
+            signingConfig signingConfigs.relese
+        }
+
+    }
+
+    //包名分类
+    productFlavors {
+        /****************************************************/
+        apkConcept2 {//新概念英语全四册-大版本
+            applicationId "com.iyuba.concept2"
+            versionCode 94//93
+            versionName "8.4.0418"//8.3.0725
+            dimension "app"
+        }
+
+        //新的包名-新概念人工智能学外语-华为（已下架）
+        conceptStory {
+            applicationId "com.iyuba.conceptStory"
+            versionCode 5
+            versionName "3.0729"
+            dimension "app"
+        }
+
+        //新的包名-新概念英语-vivo（已上架）[貌似已经被替换了，暂时不更新了]
+        conceptNce {
+            applicationId "com.iyuba.nce"
+            versionCode 87
+            versionName "7.6.0130"
+            dimension "app"
+        }
+
+        //新的包名-新概念英语微课-华为（已上架-从简版更换成这个）
+        learnNewEnglish {
+            applicationId "com.iyuba.learnNewEnglish"
+            versionCode 16
+            versionName "5.3"
+            dimension "app"
+        }
+
+        englishfm { //新概念英语全四册-fm包名
+            applicationId "com.iyuba.englishfm"
+            versionCode 1005
+            versionName "8.4.0424"
+            dimension "app"
+        }
+
+        newconcepttop {//新概念-另一个大版本
+            applicationId "com.iyuba.newconcepttop"
+            versionCode 87
+            versionName "7.6.0810"
+            dimension "app"
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/NOTICE' // will not include NOTICE file
+        exclude 'META-INF/LICENSE' // will not include LICENSE file
+        // as noted by @Vishnuvathsan you may also need to include
+        // variations on the file name. It depends on your dependencies.
+        // Some other common variations on notice and license file names
+        exclude 'META-INF/notice'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license'
+        exclude 'META-INF/license.txt'
+
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/WALLET.RSA'
+        exclude 'META-INF/WALLET.SF'
+    }
+
+    //包名输出
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            def fileName = "${variant.flavorName}-${variant.versionName}-${variant.buildType.name}.apk"
+            outputFileName = fileName
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    flatDir {
+        dirs '../lib/libs';
+    }
+}
+
+
+MobSDK {
+    appKey rootProject.ext.mob_key
+    appSecret rootProject.ext.mob_Secret
+
+    def wx_key=rootProject.ext.wx_key
+    def wx_Secret=rootProject.ext.wx_Secret
+    def wx_moment_key=rootProject.ext.wx_moment_key
+    def wx_moment_Secret=rootProject.ext.wx_moment_Secret
+    def qq_key=rootProject.ext.qq_key
+    def qq_Secret=rootProject.ext.qq_Secret
+    def sina_key=rootProject.ext.sina_key
+    def sina_Secret=rootProject.ext.sina_Secret
+
+    spEdition "fp"
+//    短信
+    SMSSDK {}
+    //秒验
+    SecVerify {}
+    ShareSDK {
+        //平台配置信息
+        devInfo {
+            Wechat {
+                appId wx_key
+
+                appSecret wx_Secret
+            }
+            QQ {
+                appId qq_key
+                appKey qq_Secret
+                shareByAppClient true
+            }
+            WechatMoments {
+                appId wx_moment_key
+
+                appSecret wx_moment_Secret
+            }
+            SinaWeibo {
+                appKey sina_key
+                appSecret sina_Secret
+//                callbackUri "http://iyuba.cn"
+//                shareByAppClient false
+            }
+            WechatFavorite {
+                appId wx_moment_key
+
+                appSecret wx_moment_Secret
+            }
+            QZone {
+                appId qq_key
+                appKey qq_Secret
+                shareByAppClient true
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "androidx.appcompat:appcompat:1.4.2"
+
+    implementation project(':lib')
+    implementation project(':configation')
+    implementation project(':multiThreadDownloader')
+    implementation project(":practise")
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.mediarouter:mediarouter:1.2.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    /*通用对话框*/
+    implementation 'me.drakeet.materialdialog:library:1.3.1'
+    //带箭头的dialog
+    implementation 'com.github.xujiaji:happy-bubble:1.0.1'
+
+    api 'com.google.zxing:core:3.3.3'
+    //使用
+    implementation "com.github.hotchemi:permissionsdispatcher:3.0.1"
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.0.1"
+    api "com.jakewharton:butterknife:10.2.1"
+    annotationProcessor "com.jakewharton:butterknife-compiler:10.2.1"
+    //解决包冲突
+    configurations {
+        all*.exclude group: 'com.android.support', module: 'support-v4'
+    }
+
+    //普通版本依赖
+    implementation 'com.github.xiaohaibin:XBanner:1.6.8'
+
+    //下拉框
+    implementation 'com.github.arcadefire:nice-spinner:1.3.1'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'cn.aigestudio.downloader:Downloader:1.4.3'
+    implementation 'com.blankj:utilcode:1.19.0'
+    implementation  "com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:1.0.0"
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0' // ViewPager 2 需要使用 RecycleView 的 adapter
+
+    implementation("com.daimajia.swipelayout:library:1.2.0@aar") {
+        exclude group: 'com.android.support'
+    }
+
+    //kotlin时代再再再再再次来临
+//    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+//    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+//    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+//    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
+//    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-native-mt'
+//    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0-native-mt'
+//    implementation 'org.litepal.guolindev:core:3.2.3'
+
+    implementation  'io.github.scwang90:refresh-layout-kernel:2.1.0'      //核心必须依赖
+    implementation  'io.github.scwang90:refresh-header-classics:2.1.0'    //经典刷新头
+//    implementation  'io.github.scwang90:refresh-header-radar:2.0.5'       //雷达刷新头
+//    implementation  'io.github.scwang90:refresh-header-falsify:2.0.5'     //虚拟刷新头
+//    implementation  'io.github.scwang90:refresh-header-material:2.0.5'    //谷歌刷新头
+//    implementation  'io.github.scwang90:refresh-header-two-level:2.0.5'   //二级刷新头
+//    implementation  'io.github.scwang90:refresh-footer-ball:2.0.5'        //球脉冲加载
+//    implementation  'io.github.scwang90:refresh-footer-classics:2.0.5'    //经典加载
+
+    implementation 'com.haibin:calendarview:3.7.1'
+
+    //腾讯多渠道打包
+    api 'com.tencent.vasdolly:helper:3.0.6'
+    //room数据库
+    implementation 'androidx.room:room-runtime:2.4.0'
+    annotationProcessor 'androidx.room:room-compiler:2.4.0'
+    implementation 'androidx.room:room-rxjava2:2.4.0'
+}
+
+//腾讯多渠道打包
+rebuildChannel{
+    //指定渠道文件
+    channelFile = file('../channel_iyuba.txt')
+    //已有APK文件地址（必填）
+    baseApk = file('../z_baseFile/新概念英语微课-5.3-release_53_jiagu_sign.apk')
+    //输出文件地址
+    outputDir = file('../z_output')
+    //快速模式：生成渠道包时不进行校验（速度可以提升10倍以上，默认为false）
+    fastMode = false
+    //低内存模式（仅针对V2签名，默认为false）：只把签名块、中央目录和EOCD读取到内存，不把最大头的内容块读取到内存，在手机上合成APK时，可以使用该模式
+    lowMemory = false
+}

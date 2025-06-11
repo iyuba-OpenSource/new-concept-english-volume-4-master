@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="comment_imagesize">40dp</dimen>
+
+    <item name="circle_inside_interval" format="integer" type="integer">20</item>
+    <item name="circle_paint_width" format="integer" type="integer">9</item>
+
+    <dimen name="list_height">50dp</dimen>
+    <dimen name="list_divider_margin">-1dp</dimen>
+    <dimen name="corner_radius_big">10dp</dimen>
+    <dimen name="line_thin">1dp</dimen>
+
+    <dimen name="row_space_large">10dp</dimen>
+    <dimen name="row_space_medium">6dp</dimen>
+
+
+
+    <dimen name="big_text">16sp</dimen>
+    <!--                标题栏高度
+         <dimen name="titlebar_height">40dp</dimen>
+         <dimen name="titlebar_buttonSize">30dp</dimen>
+         <dimen name="titlebar_titleTextSize">14sp</dimen>
+         <dimen name="titlebar_titleselectHeight">20dp</dimen>
+         <dimen name="titlebar_titleselectTextSize">14dp</dimen>
+             控制栏三维
+         <dimen name="control_height">40dp</dimen>
+         <dimen name="control_morefunctionHeight">24dp</dimen>
+         <dimen name="control_morefunctionButtonHeight">15dp</dimen>
+         <dimen name="control_morefunctionButtonWidth">20dp</dimen>
+         <dimen name="control_morefunctionButtonWidth1">25dp</dimen>
+         <dimen name="control_morefunctionButtonWidth2">11dp</dimen>
+         <dimen name="control_morefunctionHeight1">27dp</dimen>
+         <dimen name="control_morefunctionWidth1">40dp</dimen>
+         生词卡的三维
+         <dimen name="wordcard_margin">8dp</dimen>
+         <dimen name="wordcard_padding">4dp</dimen>
+         <dimen name="wordcard_keysize">14sp</dimen>
+         <dimen name="wordcard_pronsize">14sp</dimen>
+         <dimen name="wordcard_pronMarginLeft">5dp</dimen>
+         <dimen name="wordcard_speakerSize">15dp</dimen>
+         <dimen name="wordcard_lineMarginTop">2dp</dimen>
+         <dimen name="wordcard_defTextSize">12sp</dimen>
+         <dimen name="wordcard_exampleTextSize">10sp</dimen>
+         <dimen name="wordcard_buttonWidth">40dp</dimen>
+         <dimen name="wordcard_buttonHeight">15dp</dimen>
+         <dimen name="wordcard_buttonLayoutHeight">25dp</dimen>
+         <dimen name="wordcard_buttonMarginLeft">20dp</dimen>
+         <dimen name="wordcard_buttonTextSize">12sp</dimen> -->
+</resources>

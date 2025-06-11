@@ -1,0 +1,7 @@
+huawei
+xiaomi
+oppo
+vivo
+honor
+other
+tiktok

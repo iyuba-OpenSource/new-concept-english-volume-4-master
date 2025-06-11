@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- application -->
+    <string name="app_name" translatable="false">新概念人工智能学外语</string>
+    <string name="file_provider_name_personal" translatable="false">com.iyuba.conceptStory</string>
+    <string name="file_downloads" translatable="false">com.iyuba.conceptStory.downloadprovider.ncpt.downloads</string>
+</resources>

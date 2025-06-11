@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+  <external-path
+      name="external_files"
+      path="." />
+
+  <external-path
+      name="files_root"
+      path="Android/data/com.ai.voaspeed/files/appUpdate/" />
+
+  <!-- by sina sdk -->
+  <external-files-path
+      name="share_files"
+      path="." />
+
+  <!--倍孜广告-->
+  <external-path name="tt_external_root" path="." />
+  <external-path name="tt_external_download" path="Download" />
+  <external-files-path name="tt_external_files_download" path="Download" />
+  <files-path name="tt_internal_file_download" path="Download" />
+  <cache-path name="tt_internal_cache_download" path="Download" />
+
+</paths>

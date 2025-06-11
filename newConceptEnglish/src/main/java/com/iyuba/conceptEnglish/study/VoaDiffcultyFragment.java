@@ -1,0 +1,130 @@
+package com.iyuba.conceptEnglish.study;
+
+import android.content.Context;
+import android.os.Bundle;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.StyleSpan;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.iyuba.conceptEnglish.R;
+import com.iyuba.conceptEnglish.lil.concept_other.util.HelpUtil;
+import com.iyuba.conceptEnglish.manager.VoaDataManager;
+import com.iyuba.conceptEnglish.sqlite.mode.VoaDiffculty;
+import com.iyuba.conceptEnglish.sqlite.op.VoaDiffcultyOp;
+import com.iyuba.configation.Constant;
+
+
+public class VoaDiffcultyFragment extends Fragment {
+
+    private VoaDiffculty voaDiffculty;
+    private Context mContext;
+    private VoaDiffcultyOp diffcultyOp = new VoaDiffcultyOp(mContext);
+
+    private RelativeLayout noDiffcultyLayout;
+    private LinearLayout diffcultyLayout;
+    private LinearLayout tagLayout;
+
+    private TextView englishTagText;
+    private TextView chineseTagText;
+    private TextView noteText;
+
+    private int voaId;
+    private View rootView;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        if (rootView == null) {
+            rootView = inflater.inflate(R.layout.voa_diffculty, container, false);
+        }
+        mContext = getActivity();
+        initVoaStructure();
+        return rootView;
+    }
+
+    private void initVoaStructure() {
+        voaId = VoaDataManager.Instace().voaTemp.voaId;
+
+        voaDiffculty = diffcultyOp.findData(voaId);
+
+        noDiffcultyLayout = (RelativeLayout) rootView.findViewById(R.id.no_diffculty_view);
+        diffcultyLayout = (LinearLayout) rootView.findViewById(R.id.diffculty_view);
+        tagLayout = (LinearLayout) rootView.findViewById(R.id.tag);
+
+        englishTagText = (TextView) rootView.findViewById(R.id.english_tag);
+        chineseTagText = (TextView) rootView.findViewById(R.id.chinese_tag);
+        noteText = (TextView) rootView.findViewById(R.id.note);
+
+        if (voaDiffculty == null) {
+            noDiffcultyLayout.setVisibility(View.VISIBLE);
+            diffcultyLayout.setVisibility(View.GONE);
+        } else {
+            setVoaDiffculty();
+        }
+    }
+
+    public void setVoaDiffculty() {
+        if ((voaDiffculty.descEN == null || ("").equals(voaDiffculty.descEN.trim()))
+                && (voaDiffculty.descCH == null || ("").equals(voaDiffculty.descCH.trim()))) {
+            tagLayout.setVisibility(View.GONE);
+        } else {
+            tagLayout.setVisibility(View.VISIBLE);
+
+            if ((voaDiffculty.descEN == null) || ("").equals(voaDiffculty.descEN.trim())) {
+                englishTagText.setVisibility(View.GONE);
+            } else {
+//				englishTagText.setTextColor(Constant.NORMAL_COLOR);
+                englishTagText.setTextSize(Constant.textSize);
+                englishTagText.setText(voaDiffculty.descEN);
+            }
+
+            if ((voaDiffculty.descCH == null) || ("").equals(voaDiffculty.descCH.trim())) {
+                chineseTagText.setVisibility(View.GONE);
+            } else {
+//				chineseTagText.setTextColor(Constant.NORMAL_COLOR);
+                chineseTagText.setTextSize(Constant.textSize);
+                chineseTagText.setText(voaDiffculty.descCH);
+            }
+        }
+
+        String note = voaDiffculty.note;
+        SpannableStringBuilder style = transformString(HelpUtil.transTitleStyle(note));
+        noteText.setText(style);
+    }
+
+    public SpannableStringBuilder transformString(String str) {
+        String[] strs = str.split("\\+\\+\\+");
+        str = str.replaceAll("\\+\\+\\+", "");
+        int from = 0;
+        int to = 0;
+
+        SpannableStringBuilder style = new SpannableStringBuilder(str);
+
+        if (strs.length > 1) {
+            for (int i = 0; i < strs.length - 2; i = i + 2) {
+                from += strs[i].length();
+                to = from + strs[i + 1].length();
+                style.setSpan(new StyleSpan(
+                                android.graphics.Typeface.BOLD_ITALIC), from, to,
+                        Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
+                from += strs[i + 1].length();
+            }
+        }
+
+        return style;
+    }
+
+    public void onResume() {
+        super.onResume();
+    }
+}

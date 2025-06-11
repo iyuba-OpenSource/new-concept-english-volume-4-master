@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#be323e</color>
+    <color name="colorPrimaryLight">#be323e</color>
+
+    <!--微课标题栏的颜色-->
+    <color name="colorPrimaryDark">#be323e</color>
+</resources>

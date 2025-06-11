@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myring="http://schemas.android.com/apk/res-auto"
+    xmlns:roundProgress="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/backlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/me_item_bg">
+
+        <!--lesson-->
+        <TextView
+            android:id="@+id/lesson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="lesson 1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!--主要界面-->
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson">
+
+            <ImageView
+                android:id="@+id/checkBox_isDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@android:drawable/checkbox_off_background" />
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_toRightOf="@+id/checkBox_isDelete"
+                android:descendantFocusability="blocksDescendants">
+
+                <FrameLayout
+                    android:id="@+id/picLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <!--原版样式-->
+                    <LinearLayout
+                        android:id="@+id/style1Layout"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/ic_title_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/voa"
+                            android:layout_width="80dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/voaN"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textColor="#ffffff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!--样式2-->
+                    <RelativeLayout
+                        android:id="@+id/style2Layout"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/voa_pic"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter" />
+
+                        <TextView
+                            android:id="@+id/voa_index"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:id="@+id/download"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignBottom="@+id/voaTitle_layout"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!--<RelativeLayout
+                        android:id="@+id/download_layout"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:visibility="visible">
+
+                        <com.iyuba.core.common.widget.RoundProgressBar
+                            android:id="@+id/roundBar1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/pause_download"
+                            android:visibility="visible"
+                            roundProgress:circleColor="@color/white"
+                            roundProgress:circleProgressColor="@color/colorPrimary"
+                            roundProgress:circleWidth="1dip"
+                            roundProgress:textColor="#9A32CD"
+                            roundProgress:textIsDisplayable="false" />
+                    </RelativeLayout>-->
+
+                    <!--<com.iyuba.core.common.widget.RoundProgressBar
+                        android:id="@+id/image_downloaded"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/downloaded"
+                        roundProgress:circleProgressColor="@color/colorPrimary"
+                        android:visibility="gone" />-->
+                    <!--<ImageView
+                        android:id="@+id/image_downloaded"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/downloaded"
+                        android:scaleType="fitXY"
+                        android:visibility="gone" />-->
+
+                    <com.iyuba.core.common.widget.RoundProgressBar
+                        android:id="@+id/roundBar1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/pause_download"
+                        android:visibility="visible"
+                        roundProgress:circleColor="@color/white"
+                        roundProgress:circleProgressColor="@color/colorPrimary"
+                        roundProgress:circleWidth="1dip"
+                        roundProgress:textColor="#9A32CD"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        roundProgress:textIsDisplayable="false" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/voaTitle_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toStartOf="@id/download"
+                    android:layout_toEndOf="@id/picLayout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:maxLines="2"
+                        android:textColor="#414141"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/titleCn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="28dp"
+                        android:layout_marginBottom="7dp"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:textColor="#A5A5A5"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--底部操作-->
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/mainLayout">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <com.iyuba.conceptEnglish.widget.MyRing
+                    android:id="@+id/ring_article"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    myring:src="@drawable/ic_home_article_0" />
+
+
+                <TextView
+                    android:id="@+id/tv_article"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0/10"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wordLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <com.iyuba.conceptEnglish.widget.MyRing
+                    android:id="@+id/ring_word"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    myring:src="@drawable/ic_home_word_0" />
+
+
+                <TextView
+                    android:id="@+id/tv_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0/10"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.iyuba.conceptEnglish.widget.MyRing
+                    android:id="@+id/ring_eval"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    myring:src="@drawable/ic_home_eval_0" />
+
+                <TextView
+                    android:id="@+id/tv_eval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0/10"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/testLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <com.iyuba.conceptEnglish.widget.MyRing
+                    android:id="@+id/ring_test"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    myring:src="@drawable/ic_home_test_0" />
+
+
+                <TextView
+                    android:id="@+id/tv_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0/10"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/mocLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <com.iyuba.conceptEnglish.widget.MyRing
+                    android:id="@+id/microLecture"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    myring:src="@drawable/ic_home_micro_leature_0" />
+
+
+                <TextView
+                    android:id="@+id/tv_microLecture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_home_course_0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0/10"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

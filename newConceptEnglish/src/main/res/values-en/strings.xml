@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_use_name">help use</string>
+    <string name="main_name">main</string>
+    <string name="study_name">study</string>
+
+    <!--    fragment_me-->
+    <string name="fragment_me_search_group">Search group</string>
+
+    <string name="book_name_one">New concept English (1)</string>
+    <string name="book_name_two">New concept English (2)</string>
+    <string name="book_name_three">New concept English (3)</string>
+    <string name="book_name_four">New concept English (4)</string>
+    <!--    <string name="app_name">NewConcept</string>-->
+    <string name="app_name">新概念英语全四册</string>
+    <!--    <string name="app_name">新概念</string>-->
+<!--        <string name="app_name" translatable="false">新概念人工智能学外语</string>-->
+
+    <string name="play_check_network">Please check whether the network is available!</string>
+    <string name="alert_btn_ok">Confirm</string>
+    <string name="setting_title">Setting</string>
+    <string name="alert">alert</string>
+    <!-- 下拉刷新相关字符资源 -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_on_refreshing">Refreshing...</string>
+    <string name="pull_to_refresh_lastest">Lastest update:</string>
+    <!-- alert窗口相关字符资源 -->
+    <string name="alert_title">Remind</string>
+    <string name="alert_exit_content">Still downloading. Sure to exit？</string>
+    <string name="alert_net_content">Network is not connected</string>
+    <string name="alert_btn_exit">Exit</string>
+    <string name="alert_btn_buy">Buy</string>
+    <string name="alert_btn_cancel">Cancel</string>
+
+    <!-- 关于界面相关字符资源 -->
+    <string name="about_title">About</string>
+    <string name="about_update_alert_1">New version available now：</string>
+    <string name="about_update_alert_2">,wheather or not update？</string>
+    <string name="about_error">Server is busy！Please try again later！</string>
+    <string name="about_version">App Version : </string>
+
+    <!-- 播放器页面相关字符资源 -->
+    <string name="play_please_take_the_word">Please take the word</string>
+    <string name="play_no_word_interpretation">No word interpretation!</string>
+    <string name="play_ins_new_word_success">Add to new word note successfully!</string>
+    <string name="word_add">Add</string>
+    <string name="word_close">Close</string>
+
+    <!-- 分类界面相关字符资源 -->
+    <string name="category_search_info_1">Search“</string>
+    <string name="category_search_info_2">”Result</string>
+    <string name="category_check_network">Please check network！</string>
+
+    <!-- 本地收藏界面相关字符资源 -->
+
+    <!-- 意见反馈界面相关字符资源 -->
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_info">Your feedback and suggestion will be our motivation to move on!</string>
+    <string name="feedback_contact">Contact information（effective email address）</string>
+    <string name="feedback_info_title">Feedback and Suggestion</string>
+    <string name="feedback_contact_title">Contact Information</string>
+    <string name="feedback_submit_success">Feedback submit successfully！</string>
+    <string name="feedback_info_null">Feedback information can not be empty！</string>
+    <string name="feedback_email_null">Please input email！</string>
+    <string name="feedback_effective_email">Please input effictive email！</string>
+    <string name="feedback_network_error">Network error,can not submit！</string>
+    <string name="feedback_submitting">Submitting,please hold on！</string>
+
+    <!-- 用户登录界面相关字符资源 -->
+    <string name="login_find_password">Forgot password？</string>
+    <string name="login_unamehint">Input Username</string>
+    <string name="login_pwdhint">Input Password</string>
+
+    <!-- 更多按钮布局相关字符资源 -->
+    <!-- 最新列表界面相关字符资源 -->
+
+    <!-- 空间界面相关字符资源 -->
+
+    <!-- 空间界面相关字符资源 -->
+
+    <!-- 注册界面相关字符资源 -->
+
+    <!-- 设置界面相关字符资源 -->
+    <string name="setting_app_all">More App</string>
+
+    <string name="loginout_success">Drop out success！</string>
+    <string name="account_cancellation_success">Account cancellation successfully！</string>
+
+    <string name="setting_sleep_state_off">OFF</string>
+    <string name="setting_sleep_slecttime">Set When To Turn Off</string>
+    <string name="setting_sleep_explain">Set "01:23" means shutdown after 1 hour and 23minutes。</string>
+    <string name="setting_wakeup">Listening Alarm</string>
+    <string name="setting_wakeup_explain">Set when should the alarm start.</string>
+    <string name="setting_auto_notice_info1">Dear User</string>
+    <string name="setting_auto_notice_info2">has new articles!</string>
+    <string name="setting_auto_notice_info3">Lately update</string>
+    <string name="setting_auto_notice_info4">articles</string>
+    <string name="setting_auto_notice_info5"></string>
+    <string name="setting_auto_notice_info6">Total:</string>
+    <string name="setting_file_path">Article Saving Path</string>
+    <string name="setting_file_path_ask">Path changed,whether move local articles to new path?</string>
+    <string name="setting_file_path_moving">Moving...</string>
+
+    <!-- 生词本界面相关字符资源 -->
+    <string name="send">Send</string>
+    <string name="submit">Submit</string>
+    <string name="reply">Reply</string>
+    <string name="complete">Done</string>
+    <string name="login">Login</string>
+    <!-- VIP -->
+
+    <!-- dialog -->
+    <!-- info -->
+    <!-- newword -->
+    <!-- Personhome -->
+    <!-- Regist -->
+    <!-- setting -->
+    <string name="setting_deleting">Auto deleting in background.....</string>
+    <string name="setting_alert">Once deleted,collected local audios will be unavailable.\nSure to continue?</string>
+    <string name="setting_del_fail">Delete failed</string>
+    <string name="setting_share1">I am using</string>
+    <string name="setting_share2">android version，it \'s pretty a cool &amp; helpful，Try it!Address:</string>
+    <string name="setting_share_ways">How to share</string>
+
+    <!-- uploadimage -->
+    <!-- study -->
+    <string name="study_info1">Netword error,can not load</string>
+    <string name="study_info2">You are in 2G network,it makes audios slow\nWe suggest you watch when Wifi available or download audios</string>
+    <string name="study_info4">Network error,turn to local play</string>
+    <string name="study_checknet">Load comment fail,please check network</string>
+    <string name="study_input_comment">Please input comment</string>
+    <string name="study_info">#走遍美国#《</string>
+    <string name="study_load_more">Load more</string>
+    <string name="study_all_loaded">All comment loaded</string>
+    <string name="study_no_comment">No comments yes</string>
+    <string name="study_follow">Order play</string>
+    <string name="study_random">Random play</string>
+    <string name="study_repeatone">Repeat</string>
+    <string name="study_ab_a">Start recording A-，press again to hear.</string>
+    <string name="study_ab_b">Start playing A-B.</string>
+    <string name="study_vipdownload">VIP，enjoy 10x download speed.</string>
+    <!-- writemail -->
+    <!-- newlistadapter -->
+    <string name="nladapter_notvip">You are not vip so local download amount is 10\nYou may delete some audios or buy vip</string>
+    <!-- wordlistadapter -->
+    <!-- accountmanager -->
+    <!-- waiting -->
+    <!-- unvip -->
+    <!-- head -->
+    <string name="last_update">Last Update</string>
+    <!-- hint -->
+    <string name="hint1">Say something..</string>
+    <!-- 文件浏览器 -->
+    <string name="ok">Yes</string>
+    <string name="cancel">Cancle</string>
+    <string name="confirm_exit">Sure to exit?</string>
+    <string name="mainmenu_home">Main Directory</string>
+    <string name="mainmenu_refresh">Refresh</string>
+    <string name="mainmenu_createdir">Create new folder</string>
+    <string name="mainmenu_exit">Save/Exit</string>
+    <string name="mainmenu_path_save">Save Path</string>
+    <string name="mainmenu_exitnow">Exit</string>
+    <string name="file_rename">Rename</string>
+    <string name="file_delete">Delete</string>
+    <string name="file_info">Detail</string>
+    <string name="file_cannotopen">Can not open: %1$s</string>
+    <string name="file_exists">File exit!</string>
+    <string name="file_namecannotempty">File name can not be null</string>
+    <string name="file_create_fail">Create folder failed</string>
+    <string name="file_rename_fail">Rename faild</string>
+    <string name="file_name">File Name</string>
+    <string name="file_size">Size</string>
+    <string name="file_contents">Content</string>
+    <string name="file_lastmodified">Last modify</string>
+    <string name="file_paste">Paste</string>
+    <string name="file_copy">Copy</string>
+    <string name="file_move">Move</string>
+    <string name="file_create">Create</string>
+    <string name="file_copy_fail">Copy faild</string>
+    <string name="file_move_fail">Move faild</string>
+    <string name="file_notexists">File does not exist</string>
+    <string name="file_path_ro">This path is read-only,please repick</string>
+    <string name="file_path_move_success">Move success</string>
+    <string name="file_path_move_exception">Exception happens when moving,please move manually</string>
+
+
+    <string name="social_load_more">Load more</string>
+
+
+    <!-- 学习成绩统计 -->
+
+    <!-- StudyActivity -->
+
+    <!-- main.xml -->
+    <string name="home_text">teach</string>
+
+    <string name="qq_group">QQ Group</string>
+</resources>

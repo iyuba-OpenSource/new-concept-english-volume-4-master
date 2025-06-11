@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/front_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sen_index_bkg">
+
+            <TextView
+                android:id="@+id/text_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="4dp"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sen_en"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:text="Like many people, Bree Britt once Dreamed of starting her own bussness."
+                android:textColor="@color/text_gray_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/sen_zh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sen_en"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="和许多人一样，Bree Britt曾梦想这自己创业。"
+                android:textColor="@color/text_gray_color"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sep_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:background="#E6E6E6" />
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <com.iyuba.conceptEnglish.widget.RoundProgressBar
+                android:id="@+id/sen_play"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sen_play"
+                android:clickable="true"
+                app:newCircleColor="#ffffff"
+                app:newCircleProgressColor="@color/blue"
+                app:newCircleWidth="2dp"
+               />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/sen_read_backborder">
+
+            <com.iyuba.conceptEnglish.widget.RoundProgressBar
+                android:id="@+id/sen_i_read"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sen_i_read"
+                android:clickable="true"
+                app:newCircleColor="#ffffff"
+                app:newCircleProgressColor="@color/green_70"
+                app:newCircleWidth="1dp" />
+
+            <FrameLayout
+                android:id="@+id/sen_read_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true">
+
+                <com.iyuba.conceptEnglish.widget.RoundProgressBar
+                    android:id="@+id/sen_read_play"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/play_ok"
+                    android:visibility="visible"
+                    app:newCircleColor="#ffffff"
+                    app:newCircleProgressColor="@color/blue"
+                    app:newCircleWidth="2dp"
+                 />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/sen_read_send"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sen_read_send" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/sen_read_share"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/share_press"
+                android:clickable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/sen_read_result"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

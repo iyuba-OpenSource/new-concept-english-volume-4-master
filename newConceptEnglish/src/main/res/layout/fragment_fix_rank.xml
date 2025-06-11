@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!--冠军内容-->
+                <RelativeLayout
+                    android:id="@+id/championLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/rank_olive"
+                        android:layout_width="69dp"
+                        android:layout_height="56dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/olive_leaf" />
+
+                    <com.iyuba.conceptEnglish.widget.CircleImageView
+                        android:id="@+id/championPic"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3.5dp"
+                        android:background="@drawable/rank_blue" />
+
+                    <TextView
+                        android:id="@+id/championText"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3.5dp"
+                        android:background="@drawable/rank_blue"
+                        android:gravity="center"
+                        android:text="C"
+                        android:textColor="@color/whitesmoke" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/rank_olive"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/champion" />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/championName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    tools:text="cloud-sea" />
+                <TextView
+                    android:id="@+id/championWords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    tools:text="12323" />
+                <!--用户内容-->
+                <RelativeLayout
+                    android:id="@+id/myLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <com.iyuba.conceptEnglish.widget.CircleImageView
+                        android:id="@+id/myPic"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/defaultavatar" />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/myPic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/myName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toEndOf="@+id/my_image"
+                            android:textSize="12sp"
+                            tools:text="爱语吧官方测试" />
+
+                        <TextView
+                            android:id="@+id/myinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/username"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toEndOf="@+id/my_image"
+                            android:textSize="12dp"
+                            tools:text="累计阅读55555个单词，当前排名：713" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+                <!--其他内容-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <!--错误界面-->
+    <RelativeLayout
+        android:id="@+id/failLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/failText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="数据请求失败，请重试" />
+
+        <Button
+            android:id="@+id/failBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/failText"
+            android:layout_centerHorizontal="true"
+            android:text="刷新" />
+    </RelativeLayout>
+</RelativeLayout>

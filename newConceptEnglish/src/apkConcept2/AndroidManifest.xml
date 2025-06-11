@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.iyuba.concept2.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:taskAffinity="com.iyuba.concept2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.iyuba.concept2.wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity="com.iyuba.concept2"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+    <!--这里用于高版本的微信回调情况-->
+    <queries>
+        <package android:name="com.tencent.mm" />
+    </queries>
+</manifest>

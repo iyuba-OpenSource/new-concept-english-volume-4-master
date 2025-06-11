@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--*******************上边的样式******************************-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rightPicLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".4"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/spaceListen"
+        app:layout_constraintRight_toRightOf="parent">
+        <TextView
+            android:id="@+id/rightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/ic_practise_lesson_right"
+            android:hint="lesson xxx"
+            android:gravity="center"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rightPic"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_practise_tree_right"
+                android:scaleType="fitEnd"
+
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_practise_cow"
+                android:scaleType="fitCenter"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--路径-->
+    <ImageView
+        android:id="@+id/spaceStart"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_practise_path_5"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-5dp"
+
+        app:layout_constraintHorizontal_bias=".9"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/spaceWord"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_practise_path_1"
+        android:layout_marginTop="40dp"
+        android:rotation="-15"
+
+        app:layout_constraintHorizontal_bias=".65"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceStart"/>
+    <ImageView
+        android:id="@+id/spaceListen"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_practise_path_2"
+        android:scaleType="fitXY"
+        android:layout_marginTop="40dp"
+
+        app:layout_constraintHorizontal_bias=".7"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceWord"/>
+
+    <!--按钮-->
+    <ImageView
+        android:id="@+id/wordPractisePic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintHorizontal_bias=".75"
+        android:layout_marginTop="-10dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceStart"/>
+    <ImageView
+        android:id="@+id/listenPractisePic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintHorizontal_bias=".63"
+        android:layout_marginTop="-10dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceWord"/>
+
+    <!--花和草的样式-->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_grass"
+
+        app:layout_constraintHorizontal_bias=".3"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/rightPicLayout"
+        app:layout_constraintLeft_toLeftOf="@id/rightPicLayout"
+        app:layout_constraintRight_toRightOf="@id/rightPicLayout"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_flower"
+
+        app:layout_constraintHorizontal_bias=".4"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/wordPractisePic"
+        app:layout_constraintTop_toTopOf="@id/wordPractisePic"
+        app:layout_constraintBottom_toBottomOf="@id/wordPractisePic"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_grass"
+
+        app:layout_constraintHorizontal_bias=".1"
+        app:layout_constraintVertical_bias=".1"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/listenPractisePic"
+        app:layout_constraintTop_toTopOf="@id/listenPractisePic"
+        app:layout_constraintBottom_toBottomOf="@id/listenPractisePic"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_flower"
+
+        app:layout_constraintHorizontal_bias=".5"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/spaceListen"
+        app:layout_constraintTop_toTopOf="@id/spaceListen"
+        app:layout_constraintBottom_toBottomOf="@id/spaceListen"/>
+
+    <!--*******************下边的样式******************************-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/leftPicLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".4"
+
+        app:layout_constraintTop_toTopOf="@id/evalPractisePic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <TextView
+            android:id="@+id/leftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/ic_practise_lesson_left"
+            android:hint="lesson xxx"
+            android:gravity="center"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/leftPic"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_practise_tree_left"
+                android:scaleType="fitStart"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_practise_deer"
+                android:scaleType="fitCenter"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--路径-->
+    <ImageView
+        android:id="@+id/spaceEval"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_practise_path_3"
+        android:scaleType="fitXY"
+        android:layout_marginTop="40dp"
+
+        app:layout_constraintHorizontal_bias=".15"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceListen"/>
+    <ImageView
+        android:id="@+id/spacePractise"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_practise_path_4"
+        android:scaleType="fitXY"
+        android:layout_marginTop="40dp"
+
+        app:layout_constraintHorizontal_bias=".3"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceEval"/>
+
+    <!--按钮-->
+    <ImageView
+        android:id="@+id/evalPractisePic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintHorizontal_bias=".0"
+        android:layout_marginTop="-10dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceListen"/>
+    <ImageView
+        android:id="@+id/practisePractisePic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintHorizontal_bias=".3"
+        android:layout_marginTop="-10dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/spaceEval"/>
+    <ImageView
+        android:id="@+id/boxPractisePic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintHorizontal_bias=".15"
+        android:layout_marginTop="60dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+        app:layout_constraintTop_toBottomOf="@id/practisePractisePic"/>
+
+    <!--增加花和草的样式-->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_flower"
+
+        app:layout_constraintHorizontal_bias=".8"
+        app:layout_constraintVertical_bias=".1"
+
+        app:layout_constraintLeft_toLeftOf="@id/practisePractisePic"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/practisePractisePic"
+        app:layout_constraintBottom_toBottomOf="@id/practisePractisePic"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_grass"
+
+        app:layout_constraintHorizontal_bias=".3"
+        app:layout_constraintVertical_bias=".3"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/boxPractisePic"
+        app:layout_constraintTop_toTopOf="@id/boxPractisePic"
+        app:layout_constraintBottom_toBottomOf="@id/boxPractisePic"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_practise_grass"
+
+        app:layout_constraintHorizontal_bias=".6"
+        app:layout_constraintVertical_bias=".8"
+
+        app:layout_constraintLeft_toRightOf="@id/boxPractisePic"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/boxPractisePic"
+        app:layout_constraintBottom_toBottomOf="@id/boxPractisePic"/>
+
+    <!--上部-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rightPicLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintWidth_percent=".4"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+            <TextView
+                android:id="@+id/rightText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@drawable/ic_practise_lesson_right"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rightPic"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_practise_tree_right"
+                    android:scaleType="fitEnd"
+
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_practise_cow"
+                    android:scaleType="fitCenter"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        &lt;!&ndash;路径&ndash;&gt;
+        <ImageView
+            android:id="@+id/spaceStart"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_practise_path_5"
+            android:scaleType="fitXY"
+            android:layout_marginTop="-5dp"
+
+            app:layout_constraintHorizontal_bias=".9"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:id="@+id/spaceWord"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_practise_path_1"
+            android:layout_marginTop="50dp"
+            android:rotation="-15"
+
+            app:layout_constraintHorizontal_bias=".65"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spaceStart"/>
+        <ImageView
+            android:id="@+id/spaceListen"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_practise_path_2"
+            android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
+
+            app:layout_constraintHorizontal_bias=".7"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spaceWord"/>
+
+        &lt;!&ndash;按钮&ndash;&gt;
+        <ImageView
+            android:id="@+id/wordPractisePic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintHorizontal_bias=".75"
+            android:layout_marginTop="-5dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spaceStart"/>
+        <ImageView
+            android:id="@+id/listenPractisePic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintHorizontal_bias=".6"
+            android:layout_marginTop="-5dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/rightPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spaceWord"/>
+
+        &lt;!&ndash;花和草的样式&ndash;&gt;
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_grass"
+
+            app:layout_constraintHorizontal_bias=".3"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/rightPicLayout"
+            app:layout_constraintLeft_toLeftOf="@id/rightPicLayout"
+            app:layout_constraintRight_toRightOf="@id/rightPicLayout"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_flower"
+
+            app:layout_constraintHorizontal_bias=".4"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/wordPractisePic"
+            app:layout_constraintTop_toTopOf="@id/wordPractisePic"
+            app:layout_constraintBottom_toBottomOf="@id/wordPractisePic"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_grass"
+
+            app:layout_constraintHorizontal_bias=".1"
+            app:layout_constraintVertical_bias=".1"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/listenPractisePic"
+            app:layout_constraintTop_toTopOf="@id/listenPractisePic"
+            app:layout_constraintBottom_toBottomOf="@id/listenPractisePic"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_flower"
+
+            app:layout_constraintHorizontal_bias=".5"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/spaceListen"
+            app:layout_constraintTop_toTopOf="@id/spaceListen"
+            app:layout_constraintBottom_toBottomOf="@id/spaceListen"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--下部-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerLayout">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/leftPicLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintWidth_percent=".4"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent">
+            <TextView
+                android:id="@+id/leftText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@drawable/ic_practise_lesson_left"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/leftPic"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_practise_tree_left"
+                    android:scaleType="fitStart"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_practise_deer"
+                    android:scaleType="fitCenter"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        &lt;!&ndash;路径&ndash;&gt;
+        <ImageView
+            android:id="@+id/spaceEval"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_practise_path_3"
+            android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
+
+            app:layout_constraintHorizontal_bias=".2"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:id="@+id/spacePractise"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_practise_path_4"
+            android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
+
+            app:layout_constraintHorizontal_bias=".3"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spaceEval"/>
+
+        &lt;!&ndash;按钮&ndash;&gt;
+        <ImageView
+            android:id="@+id/evalPractisePic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintHorizontal_bias=".0"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:id="@+id/practisePractisePic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintHorizontal_bias=".4"
+            android:layout_marginTop="-5dp"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spaceEval"/>
+        <ImageView
+            android:id="@+id/boxPractisePic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintHorizontal_bias=".2"
+            android:layout_marginTop="-5dp"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/leftPicLayout"
+            app:layout_constraintTop_toBottomOf="@id/spacePractise"/>
+
+        &lt;!&ndash;增加花和草的样式&ndash;&gt;
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_flower"
+
+            app:layout_constraintHorizontal_bias=".8"
+            app:layout_constraintVertical_bias=".1"
+
+            app:layout_constraintLeft_toLeftOf="@id/practisePractisePic"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/practisePractisePic"
+            app:layout_constraintBottom_toBottomOf="@id/practisePractisePic"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_grass"
+
+            app:layout_constraintHorizontal_bias=".3"
+            app:layout_constraintVertical_bias=".3"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/boxPractisePic"
+            app:layout_constraintTop_toTopOf="@id/boxPractisePic"
+            app:layout_constraintBottom_toBottomOf="@id/boxPractisePic"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_practise_grass"
+
+            app:layout_constraintHorizontal_bias=".6"
+            app:layout_constraintVertical_bias=".8"
+
+            app:layout_constraintLeft_toRightOf="@id/boxPractisePic"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/boxPractisePic"
+            app:layout_constraintBottom_toBottomOf="@id/boxPractisePic"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

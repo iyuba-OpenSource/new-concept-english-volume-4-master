@@ -1,0 +1,75 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: 'dependency.gradle'
+
+buildscript {
+    ext.kotlin_version = '1.7.20'
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+
+
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url "https://developer.huawei.com/repo/" }
+
+        //mob的相关引入
+        maven { url "https://mvn.mob.com/android" }
+        //广告-瑞狮相关引入
+        maven {
+            url "http://sdk.mentamob.com/repository/vlion/"
+            allowInsecureProtocol = true
+        }
+        google()
+    }
+    dependencies {
+        //noinspection GradleDependency
+        classpath 'com.android.tools.build:gradle:4.2.2'
+
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.1'
+        classpath 'com.google.gms:google-services:3.0.0'//4.2.0 3.0.0
+//        classpath "com.mob.sdk:MobSDK:2018.0319.1724" //mobsdk 集成
+        classpath "com.mob.sdk:MobSDK:+" //mobsdk 集成
+        //classpath 'com.google.gms:google-services:4.2.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        //腾讯多渠道打包
+        classpath 'com.tencent.vasdolly:plugin:3.0.6'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url "https://developer.huawei.com/repo/" }
+
+        //mob的相关引入
+        maven { url "https://mvn.mob.com/android" }
+        //广告-瑞狮相关引入
+        maven {
+            url "http://sdk.mentamob.com/repository/vlion/"
+            allowInsecureProtocol = true
+        }
+
+        flatDir {
+            dirs '../lib/libs';
+        }
+
+
+        flatDir {
+            dirs '../mob/libs'
+        }
+        google()
+    }
+}

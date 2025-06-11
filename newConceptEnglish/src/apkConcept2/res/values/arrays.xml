@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pay_methods_images">
+        <item>@drawable/pay_weixin_icon</item>
+        <item>@drawable/pay_zhifubao_icon</item>
+        <!--  <item>@drawable/pay_bankcard_icon</item>-->
+    </string-array>
+    <string-array name="pay_methods">
+        <item>微信支付</item>
+        <item>支付宝支付</item>
+        <!-- <item>银行卡支付</item>-->
+    </string-array>
+    <string-array name="pay_method_hints">
+        <item>推荐安装微信5.0及以上版本的使用</item>
+        <item>推荐有支付宝账号的用户使用</item>
+        <!--<item>支持储蓄卡信用卡，无需开通网银</item>-->
+    </string-array>
+</resources>

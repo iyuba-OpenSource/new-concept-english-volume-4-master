@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Main" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="AppsTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FEAF52</item>
+        <item name="colorPrimaryDark">#FEAF52</item>
+        <item name="colorAccent">#FEAF52</item>
+        <item name="android:listDivider">@drawable/divider_line</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

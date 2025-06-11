@@ -1,0 +1,170 @@
+ext {
+    /********************************apkConcept2包名的*****************************/
+    mob_key="387636ce5cf38"//旧版本-da2d6fdc5cb2(可用)
+    mob_Secret="a51c6d507c607fb99787b44153789a76"//旧版本-6bd3183af2d993d296d23a28ef7aeb13(可用)
+
+    //用于微信分享小程序
+    wx_key="wx6ce5ac6bcb03a302"
+    wx_Secret="6213e0e3589744e922ef8313c7f35c3e"
+    //用于其他分享
+    wx_moment_key = "wx284c59e5e08db5d7"
+    wx_moment_Secret = "e42d384962c0d120d119b6985488a4a9"
+
+    /*qq_key="1104863272"
+    qq_Secret="IogpcP9QkoZC6MPt"*/
+    qq_key = "1109948185"
+    qq_Secret = "VMdjOTdFOOkdAPMP"
+
+    sina_key = "817528096"
+    sina_Secret = "9a0e280cf407611b0b739a3561291bf1"
+
+    /****************************************englishfm包名的*****************************/
+//    mob_key = "38dc92932989f"//旧版本-32af2fcf605c8(可用)
+//    mob_Secret = "2fc3c917bf3e4c432cd6e01f9aaa924f"//旧版本-dd02ed7166fb80d73870011e2078d422(可用)
+//
+//    //用于微信分享小程序
+//    wx_key = "wxb6e1fe24ad997516"//wx8d43bfd954aed5db
+//    wx_Secret = "5ead4521b9500e42b4a4bc75047a2aee"//eb4e20644b790a6d69b81f28eb4e1efe
+//    //用于其他分享
+//    wx_moment_key = "wxb6e1fe24ad997516"//wx8d43bfd954aed5db
+//    wx_moment_Secret = "5ead4521b9500e42b4a4bc75047a2aee"//eb4e20644b790a6d69b81f28eb4e1efe
+//
+//    qq_key = "1109948185"
+//    qq_Secret = "VMdjOTdFOOkdAPMP"
+//
+//    sina_key = "817528096"
+//    sina_Secret = "9a0e280cf407611b0b739a3561291bf1"
+
+
+    /************************************newconcepttop包名的******************************/
+//    mob_key="38dcb24a38dfe"//旧版本-32af3fb02e6c0(可用)
+//    mob_Secret="18e2f874d14bc29826a7c186e8e2c7b5"//旧版本-f67cbd5f9e37725c62807186575308fa(可用)
+//
+//    //用于微信分享小程序
+//    wx_key="wx042f53ade6e16462"//wx0ac01d0948f7459a
+//    wx_Secret="d62e7faec2f26c597c30e24347700b22"//15d615c0594c74ee6ed097d506f925c2
+//    //用于其他分享
+//    wx_moment_key="wx042f53ade6e16462"//wx0ac01d0948f7459a
+//    wx_moment_Secret="d62e7faec2f26c597c30e24347700b22"//15d615c0594c74ee6ed097d506f925c2
+//
+//    qq_key="1108180283"
+//    qq_Secret="EiYcQm1NuofPNuKy"
+//
+//    sina_key="2122951410"
+//    sina_Secret="1da732328ff08bc9f4491d847d761e4f"
+
+    /************************************nce包名的******************************/
+//    mob_key="38e4a239f904a"//旧版本-32af398f38ffc(可用)
+//    mob_Secret="eb41ad1e4db2401ddffe6003f2addffb"//旧版本-e87c7b1c9b143940ca932798960da4c4(可用)
+//
+//    //用于微信分享小程序
+//    wx_key="wx8961aa40cad433b6"
+//    wx_Secret="b6430953608b81bcf8de89f79c847b83"
+//    //用于其他分享
+//    wx_moment_key="wx8961aa40cad433b6"
+//    wx_moment_Secret="b6430953608b81bcf8de89f79c847b83"
+//
+//    qq_key="1109948185"
+//    qq_Secret="VMdjOTdFOOkdAPMP"
+//
+//    sina_key="2122951410"
+//    sina_Secret="1da732328ff08bc9f4491d847d761e4f"
+
+
+    //youth start(包名被废弃)
+//    mob_key="3425dfbeddbe0"
+//    mob_Secret="a0c6c6115787b8f0f047a1af595e1789"
+//
+//    //用于微信分享小程序=
+//    wx_key="wx1144f96866e20132"
+//    wx_Secret="e5dbe36d2b3dcd514317f6e4da7f51d5"
+//    //用于其他分享
+//    wx_moment_key="wx1144f96866e20132"
+//    wx_moment_Secret="e5dbe36d2b3dcd514317f6e4da7f51d5"
+//
+//    qq_key="101876752"
+//    qq_Secret="847cddece57c273cb60f18ff999a2e7d"
+//
+//    sina_key="2122951410"
+//    sina_Secret="1da732328ff08bc9f4491d847d761e4f"
+    //youth end
+
+
+    //meng32&64 start(包名被废弃)
+//    mob_key="37337a5f3df93"
+//    mob_Secret="d2ed9e14a8ad4c3b5ddddc1e369a2ef7"
+//
+//    //用于微信分享小程序=
+//    wx_key="wx1144f96866e20132"
+//    wx_Secret="e5dbe36d2b3dcd514317f6e4da7f51d5"
+//    //用于其他分享
+//    wx_moment_key="wx1144f96866e20132"
+//    wx_moment_Secret="e5dbe36d2b3dcd514317f6e4da7f51d5"
+//
+//    qq_key="101876752"
+//    qq_Secret="847cddece57c273cb60f18ff999a2e7d"
+//
+//    sina_key="2122951410"
+//    sina_Secret="1da732328ff08bc9f4491d847d761e4f"
+    //meng32&64 end
+
+
+    //conceptStudy start(包名被废弃)
+//    mob_key="2b2dd57c7f208"
+//    mob_Secret="fe3d196f187a3b114e53c8a768b24bf0"
+//
+//    //用于微信分享小程序
+//    wx_key=""
+//    wx_Secret=""
+//    //用于其他分享
+//    wx_moment_key=""
+//    wx_moment_Secret=""
+//
+//    qq_key=""
+//    qq_Secret=""
+//
+//    sina_key=""
+//    sina_Secret=""
+    //conceptStudy end
+
+
+    /************************************conceptStory包名的(仅用于抖音)******************************/
+//    mob_key="351c56226df5e"
+//    mob_Secret="53b70716ec4e24bc43daffd46354b73a"
+//
+//    //用于微信分享小程序
+//    wx_key="wx2abcc13b8f9e61cf"
+//    wx_Secret="f9d496be3e1d208695fb037773d58303"
+//    //用于其他分享
+//    wx_moment_key="wx2abcc13b8f9e61cf"
+//    wx_moment_Secret="f9d496be3e1d208695fb037773d58303"
+//
+//    qq_key="1108180283"
+//    qq_Secret="EiYcQm1NuofPNuKy"
+//
+//    sina_key=""
+//    sina_Secret=""
+
+
+    /************************************learnNewEnglish包名的******************************/
+//    mob_key="3894dee8ae2ce"//原来的：351c56226df5e
+//    mob_Secret="c6bf427d0a213c3eb802984896b63a73"//原来的：53b70716ec4e24bc43daffd46354b73a
+//
+//    //用于微信分享小程序
+//    wx_key="wx3a50214d8b7b29fb"
+//    wx_Secret="0e2b753242683494ec5e737d14fd1c3f"
+//    //用于其他分享
+//    wx_moment_key="wx3a50214d8b7b29fb"
+//    wx_moment_Secret="0e2b753242683494ec5e737d14fd1c3f"
+//
+//    qq_key="1108180283"
+//    qq_Secret="EiYcQm1NuofPNuKy"
+//
+//    sina_key=""
+//    sina_Secret=""
+
+    /******************其他通用参数***********/
+    compileSdkVersion = 33
+    minSdkVersion = 24
+    targetSdkVersion = 33
+}

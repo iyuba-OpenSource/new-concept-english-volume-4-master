@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <!--titlebar_lightgray_bg-->
+    <RelativeLayout
+        android:id="@+id/relativeLayout_title_and_back"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/shape_title_bg">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/play_title_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:shadowColor="#ff000000"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="3.0"
+            android:text="@string/about_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/whitesmoke" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout_title_and_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+            <TextView
+                android:id="@+id/channel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:layout_alignTop="@id/imageView1"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/logo_small" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:lineSpacingExtra="2dp"
+                android:text="爱语吧是优秀的外语学习应用开发团队之一，已经发布多款精品应用，包括英语四六级听力，voa常速、慢速、视频英语、听歌学英语，日语听力一级、二级等。"
+                android:textColor="#542f11"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:lineSpacingExtra="2dp"
+                android:text="您可以通过登录www.iyuba.cn访问我们，也可以通过意见簿或QQ:572828703提出您的任何问题和建议，欢迎您的来信。\n\n新概念微信号：iyubaNCE"
+                android:textColor="#542f11"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/imageView_url_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/setting_app_all"
+                android:textColor="#ffffff"
+                android:visibility="gone"
+                android:textSize="18sp" />
+
+            <!--button_shape-->
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView_url_btn"
+                android:layout_alignLeft="@+id/imageView_url_btn"
+                android:layout_alignRight="@+id/imageView_url_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/shape_btn_bg">
+
+                <TextView
+                    android:id="@+id/app_version"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="软件版本2.0"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_new_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/new_app"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar_update"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_alignStart="@+id/relativeLayout1"
+                android:layout_alignEnd="@+id/relativeLayout1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:visibility="invisible"
+                tools:background="@color/colorAccent"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/logout_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBar_update"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="注销账户"
+                android:textColor="#333" />
+
+            <TextView
+                android:id="@+id/filingNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logout_user"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:gravity="center"
+                android:text="教APP备110213号"
+                android:textColor="#333" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_view"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

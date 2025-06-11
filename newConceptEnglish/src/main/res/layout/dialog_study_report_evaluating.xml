@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+
+        >
+        <include layout="@layout/dialog_study_report_common_part" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    />
+
+                <!--                中间点-->
+                <View
+                    android:id="@+id/middle_view"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/image_baogao"
+                    android:layout_width="23dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="28dp"
+                    android:src="@drawable/report_dialog_baogao"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image_baogao"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="27dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/commo_text_color"
+                    android:text="学习报告"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="74dp"
+                    android:layout_marginLeft="49dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/report_dialog_gray"
+                    android:text="合成平均分"
+                    />
+
+                <TextView
+                    android:id="@+id/newWords_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="74dp"
+                    android:layout_marginLeft="31dp"
+                    android:layout_toRightOf="@id/middle_view"
+                    android:textSize="16sp"
+                    android:textColor="@color/report_dialog_gray"
+                    android:text="录音句子数"
+                    />
+
+                <TextView
+                    android:id="@+id/average_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="#3EB540"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="49dp"
+                    android:text="88"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/average_score"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="112dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/report_dialog_gray"
+                    android:text="分"
+                    />
+
+                <TextView
+                    android:id="@+id/sentence_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="#3EB540"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="31dp"
+                    android:layout_toRightOf="@id/middle_view"
+                    android:text="88"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/sentence_count"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="112dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/report_dialog_gray"
+                    android:text="句"
+                    />
+
+                <TextView
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="151dp"
+                    android:layout_marginRight="21dp"
+                    android:background="#EEEEEE" />
+
+                <TextView
+                    android:id="@+id/good_sentence_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/line"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="读的很棒的句子:"
+
+                    android:textColor="@color/commo_text_color"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:id="@+id/good_sentence_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/good_sentence_text" />
+
+                <TextView
+                    android:id="@+id/not_bed_sentence_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@id/good_sentence_linear"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/commo_text_color"
+                    android:text="需要加强的句子:"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/not_bed_sentence_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/not_bed_sentence_text"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <include layout="@layout/dialog_study_report_common_part_bottom" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

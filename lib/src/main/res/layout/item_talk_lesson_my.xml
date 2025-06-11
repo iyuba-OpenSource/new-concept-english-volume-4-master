@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="10dp"
+    android:focusable="true"
+    android:background="@drawable/shape_bg_white">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="110dp"
+            android:layout_height="72dp"
+            android:scaleType="fitXY"
+            tools:background="@color/colorAccent" />
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/delete_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/checkbox_unchecked"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/card_view"
+        android:layout_toEndOf="@id/card_view"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="默认的辩题长度两行默认的辩题长度两行"
+        android:layout_toStartOf="@id/delete_iv"/>
+
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/card_view"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_toStartOf="@id/delete_iv"
+        tools:text="page1-4 Main scene"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- application -->
+    <string name="app_name" translatable="false">新概念英语微课</string>
+
+
+    <string name="file_provider_name_personal" translatable="false">com.iyuba.learnNewEnglish</string>
+    <string name="file_downloads" translatable="false">com.iyuba.learnNewEnglish.downloadprovider.ncpt.downloads</string>
+</resources>

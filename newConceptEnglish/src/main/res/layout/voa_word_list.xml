@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/backlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/word_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/button_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:id="@+id/back_tolist"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_gray"
+                android:text="返回列表"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/former_voaword"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/former_word" />
+
+                <Button
+                    android:id="@+id/next_voaword"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/next_word" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/word_self"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="word"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/word_pron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/word_self"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/word_self"
+            android:text="word"
+            android:textColor="#4d494d"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/word_speak"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/word_self"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/speaker" />
+
+        <ImageView
+            android:id="@+id/word_collect"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/word_self"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/word_speak"
+            android:background="@drawable/add_word" />
+
+        <ScrollView
+            android:id="@+id/word_def_scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/word_speak"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/word_def"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4d494d"
+                android:textSize="18sp" />
+
+        </ScrollView>
+
+
+        <ImageView
+            android:id="@+id/word_split_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/word_def_scroll"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/split_line_h" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/button_layout"
+            android:layout_below="@id/word_split_line"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/word_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text=""
+                android:textColor="#4d494d"
+                android:textSize="18sp" />
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_word_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/sorry_face"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/no_test" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sorry_face"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="本篇暂无单词短语内容"
+            android:textColor="#414141"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!--主数据界面-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.iyuba.conceptEnglish.widget.MyListView
+            android:layout_marginTop="10dp"
+            android:id="@+id/wordslist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#dcdcdc"
+            android:dividerHeight="1dp"
+            android:visibility="visible" />
+    </ScrollView>
+    <!--底部功能-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"/>
+</LinearLayout>

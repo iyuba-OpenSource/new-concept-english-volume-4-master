@@ -1,0 +1,16 @@
+*.iml
+
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/lib/build/
+/multiThreadDownloader/build/
+/http233/build/
+/newConceptEnglish/build/
+/.gradle/
+#/pullToRefreshlibrary
+
+

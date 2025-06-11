@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="file_provider_name_personal" translatable="false">com.iyuba.conceptEnglish</string>
+    <string name="file_downloads" translatable="false">com.iyuba.conceptEnglish.downloadprovider.ncpt.downloads</string>
+    <!--OPPO推送相关-->
+    <string name="oppo_id" translatable="false">558867</string>
+    <string name="oppo_key" translatable="false">6ln3pKEv1yo8S0w0kKwoGOwoK</string>
+    <string name="oppo_secret" translatable="false">c0de699Fc6B2aF04436f96c0D4bbb339</string>
+    <string name="oppo_push_secret" translatable="false">302220b08c0d24e6a97fa845a2b2aC1E</string>
+    <!--华为推送相关-->
+    <string name="huawei_id" translatable="false">10190304</string>
+    <string name="huawei_key" translatable="false">dsfme54fb13slt9fyg2bbrtxim19vjun</string>
+    <!--小米推送相关-->
+    <string name="xiaomi_id" translatable="false">2882303761517900321</string>
+    <string name="xiaomi_key" translatable="false">5271790073321</string>
+    <string name="xiaomi_secret" translatable="false">AnWX5PKQOWAm9bG0KCvaoA==</string>
+    <string name="promotion" translatable="false">推广</string>
+
+
+    <!-- HeadlineFragment -->
+    <string name="pulldown" translatable="false">下拉刷新</string>
+    <string name="pulldown_refreshing" translatable="false">正在刷新</string>
+    <string name="pulldown_release" translatable="false">松开刷新数据</string>
+    <string name="pullup" translatable="false">上拉加载</string>
+    <string name="pullup_loading" translatable="false">正在加载</string>
+    <string name="pullup_release" translatable="false">松开加载更多</string>
+
+    <string name="help_use_name" translatable="false">使用帮助</string>
+    <string name="main_name" translatable="false">主函数</string>
+    <string name="local_new" translatable="false">local_new</string>
+    <string name="study_name" translatable="false">学习</string>
+    <!-- 中文 -->
+
+    <!--    fragment_me-->
+    <string name="fragment_me_search_group" translatable="false">搜索群</string>
+
+
+    <string name="book_name_one" translatable="false">新概念英语一</string>
+    <string name="book_name_two" translatable="false">新概念英语二</string>
+    <string name="book_name_three" translatable="false">新概念英语三</string>
+    <string name="book_name_four" translatable="false">新概念英语四</string>
+    <!--    <string name="app_name" translatable="false">NewConcept</string>-->
+    <string name="app_name" translatable="false">新概念英语全四册</string>
+    <!--    <string name="app_name" translatable="false">新概念</string>-->
+<!--        <string name="app_name" translatable="false">新概念人工智能学外语</string>-->
+
+    <string name="please_check_network" translatable="false">请检查网络是否可用！</string>
+    <string name="alert_btn_ok" translatable="false">确定</string>
+    <string name="setting_title">设置</string>
+    <string name="alert">提示</string>
+    <!-- 下拉刷新相关字符资源 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_release_label">松开刷新...</string>
+    <string name="pull_to_refresh_on_refreshing">正在刷新...</string>
+    <string name="pull_to_refresh_lastest">最新更新:</string>
+    <string name="pelease_write_search_content">请输入要搜索的内容</string>
+
+    <!-- alert窗口相关字符资源 -->
+    <string name="alert_title">提示</string>
+    <string name="alert_exit_content">正在下载中，确定退出应用？</string>
+    <string name="alert_net_content">网络未连接</string>
+    <string name="alert_btn_exit">退出</string>
+    <string name="alert_btn_buy">购买</string>
+    <string name="alert_btn_cancel">取消</string>
+
+    <!-- 关于界面相关字符资源 -->
+    <string name="about_title">关于</string>
+    <string name="about_update_alert_1">当前有新版本更新：</string>
+    <string name="about_update_alert_2">,是否要更新？</string>
+    <string name="about_error">服务器忙！请稍后下载！</string>
+    <string name="about_version">软件版本：</string>
+
+    <!-- 播放器页面相关字符资源 -->
+    <string name="play_please_take_the_word">请取英文单词</string>
+    <string name="play_no_word_interpretation">当前单词未找到释义！</string>
+    <string name="no_search_word">不存在你要查询的单词！</string>
+    <string name="play_ins_new_word_success">成功加入生词本！</string>
+    <string name="word_add">添加</string>
+    <string name="word_close">关闭</string>
+
+    <!-- 分类界面相关字符资源 -->
+    <string name="category_search_info_1">搜索“</string>
+    <string name="category_search_info_2">”的结果</string>
+    <string name="category_check_network">请检查网络是否可用！</string>
+
+    <!-- 本地收藏界面相关字符资源 -->
+
+    <!-- 意见反馈界面相关字符资源 -->
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_info">您反馈的问题和建议，将是我们进步的动力！</string>
+    <string name="feedback_contact">联系方式（有效的邮箱地址）</string>
+    <string name="feedback_info_title">反馈或建议</string>
+    <string name="feedback_contact_title">联系方式</string>
+    <string name="feedback_submit_success">意见反馈已提交！</string>
+    <string name="feedback_info_null">反馈信息不能为空！</string>
+    <string name="feedback_email_null">请填写email！</string>
+    <string name="feedback_effective_email">请填写有效的email！</string>
+    <string name="feedback_network_error">网络错误，未能提交反馈！</string>
+    <string name="feedback_submitting">提交中，请稍后！</string>
+
+    <!-- 用户登录界面相关字符资源 -->
+    <string name="login_find_password">忘记密码？</string>
+    <string name="login_unamehint">请输入手机号/用户名/邮箱</string>
+    <string name="login_pwdhint">请输入密码</string>
+
+    <!-- 更多按钮布局相关字符资源 -->
+    <!-- 最新列表界面相关字符资源 -->
+
+    <!-- 空间界面相关字符资源 -->
+
+    <!-- 空间界面相关字符资源 -->
+
+    <!-- 注册界面相关字符资源 -->
+
+    <!-- 设置界面相关字符资源 -->
+    <string name="setting_app_all">更多应用</string>
+    <string name="setting_sleep_state_off">关</string>
+    <string name="setting_sleep_slecttime">请选择时间</string>
+    <string name="setting_sleep_explain">例如设置"01:23"则代表1个小时23分钟之后关闭程序。</string>
+    <string name="setting_wakeup">听力闹钟</string>
+    <string name="setting_wakeup_explain">设置闹钟的响铃时间</string>
+    <string name="setting_auto_notice_info1">亲爱的用户</string>
+    <string name="setting_auto_notice_info2">又有新文章啦</string>
+    <string name="setting_auto_notice_info3">最近更新:</string>
+    <string name="setting_auto_notice_info4">篇</string>
+    <string name="setting_auto_notice_info5">等</string>
+    <string name="setting_auto_notice_info6">共</string>
+    <string name="setting_file_path">选择存储路径</string>
+    <string name="setting_file_path_ask">存储位置发生改变，是否将原下载的文章迁移到新地址？</string>
+    <string name="setting_file_path_moving">正在迁移中，请稍候。</string>
+
+    <!-- 生词本界面相关字符资源 -->
+    <string name="send">发送</string>
+    <string name="submit">提交</string>
+    <string name="reply">回复</string>
+    <string name="complete">完成</string>
+    <string name="login">登录</string>
+    <string name="voa_text">原文</string>
+    <string name="voa_knowledge">知识</string>
+    <string name="voa_exercise">练习</string>
+    <string name="voa_reRead">评测</string>
+    <string name="voa_rank">排行</string>
+    <string name="voa_talk">配音</string>
+    <string name="voa_remark">评论</string>
+    <string name="click_read_str">点读</string>
+    <!-- VIP -->
+    <!-- dialog -->
+    <!-- info -->
+    <string name="high_speed_download_toast">您好，只有vip用户，才能拥有高速下载权限！ </string>
+    <!-- newword -->
+    <!-- Personhome -->
+    <!-- Regist -->
+    <!-- setting -->
+    <string name="setting_deleting">后台自动删除中……</string>
+    <string name="setting_alert">一旦删除，已收藏的本地音频无法再离线收听。\n确定要继续么?</string>
+    <string name="setting_del_fail">删除失败</string>
+    <string name="setting_share1">我正在使用</string>
+    <string name="setting_share2">android版，感觉不错，你也来试试吧。地址:</string>
+    <string name="setting_share_ways">选择分享方式</string>
+    <!-- uploadimage -->
+    <!-- study -->
+    <string name="study_info1">网络异常，无法加载</string>
+    <string name="study_info2">您当前是2G网络，播放的流畅度不高\n建议您连接wifi或者下载之后播放</string>
+    <string name="study_info4">网络异常，转入本地播放</string>
+    <string name="study_checknet">评论加载失败，请检查网络</string>
+    <string name="study_input_comment">请输入评论内容</string>
+    <string name="study_info">我正在使用新概念英语，学习第一册第1课《</string>
+    <string name="study_load_more">加载更多</string>
+    <string name="study_on_load">正在加载...</string>
+    <string name="study_all_loaded">已加载全部评论</string>
+    <string name="study_no_comment">目前还没有评论</string>
+    <string name="study_follow">顺序播放</string>
+    <string name="study_random">随机播放</string>
+    <string name="study_repeatone">单曲循环</string>
+    <string name="study_ab_a">开始记录A-，再次点击即可区间播放</string>
+    <string name="study_ab_b">开始播放A-B</string>
+    <string name="study_first">当前已经是第一句！</string>
+    <string name="study_last">当前已经是最后一句！</string>
+    <string name="study_vipdownload">尊敬的VIP用户，您将享受10倍于普通用户的下载带宽</string>
+    <!-- writemail -->
+
+    <!-- newlistadapter -->
+    <string name="nladapter_notvip">您当前不是VIP，本地下载限制数目为10篇\n您可以删除已听过的音频或购买VIP</string>
+    <!-- wordlistadapter -->
+    <!-- accountmanager -->
+    <!-- waiting -->
+
+    <!-- unvip -->
+    <!-- head -->
+    <string name="last_update">上次更新</string>
+    <!-- hint -->
+    <string name="hint1">说点什么吧...</string>
+
+    <!-- 文件浏览器 -->
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_exit">确认退出程序？</string>
+    <string name="mainmenu_home">主目录</string>
+    <string name="mainmenu_refresh">刷新</string>
+    <string name="mainmenu_createdir">新建文件夹</string>
+    <string name="mainmenu_exit">保存/返回应用</string>
+    <string name="mainmenu_path_save">保存</string>
+    <string name="mainmenu_exitnow">返回应用</string>
+    <string name="file_rename">重命名</string>
+    <string name="file_delete">删除</string>
+    <string name="file_info">详情</string>
+    <string name="file_cannotopen">无法打开: %1$s</string>
+    <string name="file_exists">文件已存在！</string>
+    <string name="file_namecannotempty">文件名不能为空</string>
+    <string name="file_create_fail">创建文件失败！</string>
+    <string name="file_rename_fail">重命名失败！</string>
+    <string name="file_name">文件名</string>
+    <string name="file_size">大小</string>
+    <string name="file_contents">内容</string>
+    <string name="file_lastmodified">最后修改时间</string>
+    <string name="file_paste">粘贴</string>
+    <string name="file_copy">复制</string>
+    <string name="file_move">移动</string>
+    <string name="file_create">新建</string>
+    <string name="file_copy_fail">复制文件失败！</string>
+    <string name="file_move_fail">移动文件失败！</string>
+    <string name="file_notexists">文件不存在！</string>
+    <string name="file_path_ro">此文件夹为只读类型，请您选择其他的路径进行存储。</string>
+    <string name="file_path_move_success">迁移成功</string>
+    <string name="file_path_move_exception">迁移过程中有异常，请您重新选择文件夹或手动迁移</string>
+    <string name="social_load_more">加载更多</string>
+    <string name="submit_result">是否提交选择题答案？</string>
+
+    <!-- 学习成绩统计 -->
+
+    <!-- VoaStructureExercise -->
+    <string name="has_no_answer">当前题目没有答案！</string>
+    <string name="pic">欢迎使用新概念英语！</string>
+
+    <!-- main.xml -->
+    <string name="home_text">教材</string>
+
+    <!-- MainFragmentActivity -->
+
+    <!-- LocalNews -->
+    <string name="local_title">本地篇目</string>
+    <string name="favor_title">最爱篇目</string>
+    <string name="read_title">历史篇目</string>
+    <string name="newslist_synchro_success">已从云端同步所有您的喜欢篇目</string>
+    <string name="alert_exit">再按一次退出程序</string>
+
+    <!-- SettingActivity -->
+
+    <string name="function_setting">功能设置</string>
+    <string name="high_speed_download">高速下载</string>
+    <string name="keep_screen_lit">播放时保持屏幕常亮</string>
+    <string name="push_message">允许新概念英语给您推送信息</string>
+    <string name="speed_player">启用调速播放器</string>
+    <string name="headphone_in">耳机插入自动播放</string>
+    <string name="headphonel_out">耳机拔出自动暂停</string>
+    <string name="sleep_mode">睡眠模式</string>
+    <string name="sleep_mode_off">关</string>
+    <string name="set_file_path">存储路径</string>
+    <string name="clear_pic">清理图片缓存</string>
+    <string name="clear_video">清理音频缓存</string>
+    <string name="personal_ad" translatable="false">个性化广告展示设置</string>
+    <string name="clear_microclass">清理微课课程</string>
+    <string name="about">关于</string>
+    <string name="recommend">推荐给朋友们</string>
+    <string name="about_iyuba">关于爱语吧</string>
+    <string name="feedback">意见反馈</string>
+    <string name="help_use">使用帮助</string>
+
+    <!-- CommentListAdapter -->
+    <string name="comment_already">您已经评论过该条了...</string>
+    <string name="comment_agree">点赞成功~</string>
+    <string name="comment_disagree">鄙视成功-_-</string>
+
+    <!-- share dialog -->
+    <!-- more by pan -->
+    <string name="my_intel_test">我的智慧化评测</string>
+    <string name="my_intel_learning">我的智能化学习</string>
+    <string name="userinfo_complete">个人信息完善</string>
+    <string name="intel_learning_goal">智能化学习目标</string>
+    <string name="intel_learning_result">智能化学习成果</string>
+    <string name="intel_word_result">单词大数据</string>
+    <string name="intel_test_result">智能化测试成果</string>
+    <string name="eng_level">英语等级</string>
+    <string name="lisspe_level">听说水平</string>
+    <string name="reawri_level">读写水平</string>
+    <string name="goal_level">目标水平</string>
+    <string name="eng_now_level">目前水平</string>
+    <string name="commit">提     交</string>
+    <string name="username">用户名</string>
+    <string name="sex">性 别</string>
+    <string name="birthday">生 日</string>
+    <string name="province">省 份</string>
+    <string name="identity">身 份</string>
+    <string name="education">学 历</string>
+    <string name="school" translatable="false">学 校</string>
+
+    <string name="qq_group" translatable="false">QQ交流群</string>
+    <string name="wordpath" translatable="false">newconceptword</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--解压后压缩包的名字-->
+    <string name="pronunciation_analysis" translatable="false">发音解析</string>
+    <string name="seek_analysis" translatable="false">点击每个单词可查看发音解析</string>
+    <string name="correct_pronunciation" translatable="false">正确发音:</string>
+    <string name="your_pronunciation" translatable="false">你的发音:</string>
+    <string name="word_definition" translatable="false">单词释义:</string>
+    <string name="click_start" translatable="false">点击开始</string>
+    <string name="click_stop" translatable="false">点击结束</string>
+    <string name="listen_original" translatable="false">听原音</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="seek_lisa" translatable="false">查看发音专家Lisa博士对于发音的视频讲解</string>
+
+    <!--奖励接口显示的样式-->
+    <string name="reward_show">本次学习获得%1$s元红包奖励,已自动存入您的钱包账户</string>
+
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--无数据-->
+    <RelativeLayout
+        android:id="@+id/emptyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/sorry_face"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/no_test" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sorry_face"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="本篇暂未提供试题"
+            android:textColor="#414141"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!--数据-->
+    <RelativeLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <!--两个数据显示-->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@id/bottomLayout">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--题目-->
+                <TextView
+                    android:id="@+id/blank_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Complete the following making a sentence out of each:"
+                    android:textColor="#414141"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <!--题干-->
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/blank_type"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="1. She happened ____."
+                    android:textColor="#414141"
+                    android:textSize="18sp" />
+                <!--内容1(单填空题)-->
+                <RelativeLayout
+                    android:id="@+id/singleBlankLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/question"
+                    android:layout_marginTop="10dp"
+
+                    android:visibility="gone"
+                    >
+                    <RelativeLayout
+                        android:id="@+id/user_answer_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/user_answer_tag"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Your answer:"
+                            android:textColor="#414141"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/user_answer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/user_answer_tag"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/gray_item"
+                            android:lineSpacingExtra="3dp"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="5dp"
+                            android:text="to mention that it is your birthday today"
+                            android:textColor="#414141"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/right_answer_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/user_answer_body">
+
+                        <TextView
+                            android:id="@+id/right_answer_tag"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="Right answer:"
+                            android:textColor="#414141"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/right_answer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/right_answer_tag"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/gray_item"
+                            android:lineSpacingExtra="3dp"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="5dp"
+                            android:text="to mention that it is your birthday today"
+                            android:textColor="#414141"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!--内容2(多填空题)-->
+                <RelativeLayout
+                    android:id="@+id/multiBlankLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/question"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <TextView
+                        android:id="@+id/multi_blank"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="3dp"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="1. I am looking out of my window.I can see some children in the street.The children ____ (play) football.They always ____ (play) fpptball inthe street.Now a little boy ____ (kick) the ball.Another boy ____(run) after him but he cannot catch him."
+                        android:textColor="#414141"
+                        android:textSize="18sp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/multi_blank_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/multi_blank"
+                        />
+                    <!--针对没有note的多填空题型处理-->
+                    <LinearLayout
+                        android:id="@+id/multi_blank_no_note_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"
+                        android:layout_below="@id/multi_blank_user">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Right answer:"
+                            android:textColor="#414141"
+                            android:textSize="18sp" />
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/noNoteRightAnswer"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+        <!--底部-->
+        <RelativeLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <com.iyuba.conceptEnglish.widget.indicator.ExercisePageIndicator
+                android:id="@+id/pageIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:id="@+id/index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black_3"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@id/submit"
+                android:layout_centerVertical="true"/>
+            <!--提交-->
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="60dp"
+                android:layout_height="23dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toLeftOf="@id/previous"
+                android:background="@drawable/answer_submit" />
+            <!--上一个-->
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="60dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_toLeftOf="@id/next"
+                android:background="@drawable/former_question" />
+            <!--下一个-->
+            <Button
+                android:id="@+id/next"
+                android:layout_width="60dp"
+                android:layout_height="23dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/next_question" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

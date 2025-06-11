@@ -1,0 +1,2338 @@
+ [
+        {
+            "voa_id": "1002",
+            "word": "pen",
+            "def": "n. 钢笔",
+            "pron": "pen ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4c/b3/4cb31513b7a20a3f3cefbe66ac796821.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "dress",
+            "def": "n. 连衣裙 ",
+            "pron": "dres ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/87/bc/87bc4180e94354dbb70d76211268f363.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "skirt",
+            "def": "n. 裙子 ",
+            "pron": "skɜːt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/25/03/25035b696adab5392334d25a32956a21.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "shirt",
+            "def": "n. 衬衣 ",
+            "pron": "ʃɜːt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/c9/50/c9507f538a6e79c9bd6229981d6e05a3.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "car",
+            "def": "n. 小汽车 ",
+            "pron": "kɑː ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f7/28/f72801df7dc8421682f4b4c6b99746cb.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "house",
+            "def": "n. 房子",
+            "pron": "haʊs ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/a5/6d/a56dbc0c371c2aa4150ab906dfdeee27.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "pencil",
+            "def": "n. 铅笔 ",
+            "pron": " 'pens(ə)l ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/12/7a/127af1b36aa6f3bdd810a8caef122835.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "book",
+            "def": "n. 书 ",
+            "pron": " bʊk ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/7b/1e/7b1e114ff5a2b3e6d06064d14f9d2f7a.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "watch",
+            "def": "n. 手表 ",
+            "pron": " wɒtʃ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/d2/97/d2974c96dc96b3f30a6168bcc4b25b02.mp3"
+        },
+        {
+            "voa_id": "1002",
+            "word": "coat",
+            "def": "n. 上衣,外衣",
+            "pron": " kəʊt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/77/ea/77eaa26cdfae788af243f9fb04650eb3.mp3"
+        },
+        {
+            "voa_id": "1004",
+            "word": "suit",
+            "def": "n. 一套衣服 ",
+            "pron": "sju:t; su:t ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f0/0e/f00ec0b42db2ee16b6fdd4e2266ea411.mp3"
+        },
+        {
+            "voa_id": "1004",
+            "word": "school",
+            "def": "n. 学校 ",
+            "pron": "skuːl ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/84/49/8449247035db6fb51ecdbac4799aea90.mp3"
+        },
+        {
+            "voa_id": "1004",
+            "word": "teacher",
+            "def": "n. 老师",
+            "pron": " 'tiːtʃə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f0/fb/f0fb9eecf6814f90ec1b3229c25b1dc1.mp3"
+        },
+        {
+            "voa_id": "1004",
+            "word": "son",
+            "def": "n. 儿子",
+            "pron": "sʌn ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/38/f6/38f626447f3f7da3d31ece6f5764d1e1.mp3"
+        },
+        {
+            "voa_id": "1004",
+            "word": "daughter",
+            "def": "n. 女儿",
+            "pron": " 'dɔːtə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/9d/38/9d38e0df07fa7dd86d8e5bcaf6b174c8.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "make",
+            "def": "n.  (产品的)牌号 ",
+            "pron": " meɪk ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f6/60/f6602649ee95f3eaba08703930d00229.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Swedish",
+            "def": "adj. 瑞典的 ",
+            "pron": " 'swi:dɪʃ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/c8/1a/c81a3177cd86c7371f0572a651a4ab70.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "English",
+            "def": "adj. 英国的 ",
+            "pron": " 'ɪŋɡlɪʃ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ba/0a/ba0a6ddd94c73698a3658f92ac222f8a.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "American",
+            "def": "adj. 美国的 ",
+            "pron": " əˈmerɪkən ",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1006",
+            "word": "Italian",
+            "def": "adj. 意大利的 ",
+            "pron": " ɪˈtælɪən ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/22/67/2267860f043bf39437195f97d46520ea.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Volvo",
+            "def": "n. 沃尔沃 ",
+            "pron": " 'vɔlvəu ",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/7/1/7/717f274ee66f8541a3031f175f615e72.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Peugeot",
+            "def": "n. 标致",
+            "pron": " ",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1006",
+            "word": "Mercedes",
+            "def": "n. 梅赛德斯",
+            "pron": "mə'sɪdiz",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/c/5/7/c57be7f5199702478231bed01627783b.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Toyota",
+            "def": "n. 丰田",
+            "pron": " 'təujəutə",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/5/3/0/53092a17afa460689ca931f0d459e399.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Daewoo",
+            "def": "n. 大宇",
+            "pron": "dewu",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1006",
+            "word": "Mini",
+            "def": "n. 迷你",
+            "pron": " 'mɪnɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/44/c6/44c6c370fd1859325f7119e96a81584e.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Ford",
+            "def": "n. 福特",
+            "pron": " fɔːd ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/80/ca/80ca06abfa1a5104af9a770f485dad07.mp3"
+        },
+        {
+            "voa_id": "1006",
+            "word": "Fiat",
+            "def": "n. 菲亚特",
+            "pron": "ˈfiæt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/fe/78/fe789a0a5d6e7ce6a04d108a43f55c08.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "policeman",
+            "def": "n. 警察",
+            "pron": " pə'liːsmən ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/73/60/73608f241ab2db2eed9505c3d2673814.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "nurse",
+            "def": "n. 护士",
+            "pron": " nɜːs ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/07/01/0701aa317da5a004fbf6111545678a6c.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "policewoman",
+            "def": "n. 女警察 ",
+            "pron": " pə'liːswʊmən ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/aa/8f/aa8f5ab5a97cef4c83443c9d791e757d.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "taxi driver",
+            "def": "n. 租汽车司机 ",
+            "pron": " 'tæksɪ  'draɪvə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/2b/47/2b474ef09bd0502197fec213ba39807f.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "air hostess",
+            "def": "n. 空中小姐",
+            "pron": " eə ˈhəʊstɪs",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/13/d2/13d20d611e670e02b4ed67081a8df022.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "postman",
+            "def": "n. 邮递员",
+            "pron": " 'pəʊs(t)mən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/2e/63/2e63cace90de6bfb26ee46945728fdba.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "mechanic",
+            "def": "n. 机械师",
+            "pron": "mɪ'kænɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/e1/7c/e17c59db0ddb3be9dc99c1791c794b6a.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": " hairdresser",
+            "def": "n. 理发师 ",
+            "pron": " 'heədresə(r)",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/46/b5/46b552b8353e6e551ef2aa61bc62c686.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "housewife",
+            "def": "n. 家庭妇女 ",
+            "pron": " 'haʊswaɪf",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/9e/b5/9eb56a791c4bc47fdb5bc72eb9a267ed.mp3"
+        },
+        {
+            "voa_id": "1008",
+            "word": "milkman",
+            "def": "n. 送牛奶的人",
+            "pron": " 'mɪlkmən ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/69/c8/69c86035e7827a5d89ed59d0a436b0d6.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "fat",
+            "def": "adj. 胖的",
+            "pron": " fæt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/0d/8d/0d8dc086e16e3ac48f05d555994da7d7.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "hot",
+            "def": "adj. 热的",
+            "pron": " hɒt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/27/36/27369b3bf4483e8dcfd85ba9a39a947f.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "cold",
+            "def": "adj. 冷的 ",
+            "pron": " kəʊld ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/75/e5/75e52a0ecfafeda17a34fc60111c1f0b.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "old",
+            "def": "adj. 老的 ",
+            "pron": " əʊld ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/14/96/149603e6c03516362a8da23f624db945.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "young",
+            "def": "adj. 年轻的 ",
+            "pron": " jʌŋ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4b/2b/4b2ba9b65ba4feaac100137c471d4803.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "busy",
+            "def": "adj. 忙的 ",
+            "pron": " 'bɪzɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/fe/49/fe49d6b283859de0d0ae3f8d304bd3ec.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "lazy",
+            "def": "adj. 懒的",
+            "pron": " 'leɪzɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f4/73/f473644b996bf1ead6dc35350688e33d.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "woman",
+            "def": "n. 女人 ",
+            "pron": " 'wʊmən ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/65/7f/657f8fe07baaf928a3c014a735f8cfd0.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "thin",
+            "def": "adj. 瘦的 ",
+            "pron": " θɪn ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f1/f4/f1f450f4ed65df70629f269f97fcc63a.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "tall",
+            "def": "adj. 高的 ",
+            "pron": " tɔːl ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/58/73/587363708c5538732338b232b12dc91a.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "short",
+            "def": "adj. 矮的 ",
+            "pron": " ʃɔːt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/4f/09/4f09daa9d95bcb166a302407a0e0babe.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "dirty",
+            "def": "adj. 脏的 ",
+            "pron": " 'dɜːtɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/32/47/32478ef751ab0a81974a3aa8569607b9.mp3"
+        },
+        {
+            "voa_id": "1010",
+            "word": "clean",
+            "def": "adj. 干净的",
+            "pron": " kliːn ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f3/e0/f3e0c9b789531c0f8ef74eaed1cbc690.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "father",
+            "def": "n. 父亲 ",
+            "pron": " 'fɑːðə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/66/89/668954aabaabc0e9b648522dcae853f3.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "mother",
+            "def": "n. 母亲 ",
+            "pron": " 'mʌðə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/51/2a/512adc515175966fd898530687e19480.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "blouse",
+            "def": "n. 女衬衫 ",
+            "pron": " 'blaʊz ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/2b/bb/2bbbc09c29efa9bebd8718aa6f9d7bae.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "sister",
+            "def": "n. 姐,妹",
+            "pron": " 'sɪstə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/9f/d3/9fd3efe0e335e3758b194f636b607c5d.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "tie",
+            "def": "n. 领带",
+            "pron": " taɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/46/67/466735e0cedc55c1cfaec4885c9f0017.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "brother",
+            "def": "n. 兄,弟",
+            "pron": " 'brʌðə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/30/d1/30d1d392fe30b56e532d5c7e868f4fd3.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "his",
+            "def": "possessive adjective 他的 ",
+            "pron": " hɪz ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/95/3d/953d5349798bf3654a004b4586aac169.mp3"
+        },
+        {
+            "voa_id": "1012",
+            "word": "her",
+            "def": "possessive adjective 她的",
+            "pron": " hɜː ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d9/d3/d9d382311d08413de0c6870cc27b4ec6.mp3"
+        },
+        {
+            "voa_id": "1014",
+            "word": "dog",
+            "def": "n. 狗",
+            "pron": " dɒg ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/06/d8/06d80eb0c50b49a509b49f2424e8c805.mp3"
+        },
+        {
+            "voa_id": "1014",
+            "word": "case",
+            "def": "n. 箱子 ",
+            "pron": " keɪs ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/5f/46/5f469fae89e3658adea49e6f07236fc6.mp3"
+        },
+        {
+            "voa_id": "1014",
+            "word": "carpet",
+            "def": "n. 地毯",
+            "pron": " 'kɑːpɪt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/37/c6/37c6ab2fd1e8347dcc69226b592f1a58.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "grey ",
+            "def": "adj. 灰色的",
+            "pron": " greɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/dc/87/dc870acc89a423ed0b725f864c857c3b.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "Russian ",
+            "def": "adj. &n. 俄罗斯人 ",
+            "pron": " 'rʌʃ(ə)n ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/86/b2/86b285c2d576b8015b18ac8a296cd4fe.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "Dutch ",
+            "def": "adj.&n. 荷兰（的），荷兰人（的） ",
+            "pron": "dʌtʃ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/1c/22/1c22e8d17b771e9784574ed59cbd536c.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "these",
+            "def": "pron. 这些(this的复数) ",
+            "pron": "ðiːz ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/bd/4c/bd4c4ea1b44a8ff2afa18dfd261ec2c8.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "red ",
+            "def": "adj. 红色的",
+            "pron": "red ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/3b/57/3b577c8f5bfa2cc523fac83910773295.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "yellow ",
+            "def": "adj. 黄色的 ",
+            "pron": " 'jeləʊ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/d4/87/d487dd0b55dfcacdd920ccbdaeafa351.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "black",
+            "def": "adj. 黑色的 ",
+            "pron": "blæk ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/8d/83/8d83a9995fa39d2c1426f40c089b7ee3.mp3"
+        },
+        {
+            "voa_id": "1016",
+            "word": "orange ",
+            "def": "adj. 橘黄色的",
+            "pron": " 'ɒrɪndʒ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/7d/9a/7d9a2fe873a7d3712b01e3fe67308497.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "big",
+            "def": "adj. 大的",
+            "pron": "bɪg ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/dd/3e/dd3eded85f7085dc92210aa496e92ba9.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "heavy",
+            "def": "adj. 重的",
+            "pron": " 'hevɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/b5/da/b5da1a03a3600b1e6d9a59f50cabcee8.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "small",
+            "def": "adj. 小的 ",
+            "pron": "smɔːl ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/28/f8/28f85b17ea70a68a37bb3b8387a7d672.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "open",
+            "def": "adj. 开着的",
+            "pron": " 'əʊp(ə)n ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/6e/67/6e6767f6e4aef49f4345582c9b40cbea.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "shut",
+            "def": "adj, 关着的",
+            "pron": "ʃʌt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/96/f7/96f79fd6da209872666fe30e602bf93f.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": " light",
+            "def": "adj. 轻的",
+            "pron": "laɪt ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/39/06/3906f8010e48209009589f720205a909.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "long",
+            "def": "adj. 长的",
+            "pron": "lɒŋ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/0f/52/0f5264038205edfb1ac05fbb0e8c5e94.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "shoe",
+            "def": "n. 鞋子",
+            "pron": "ʃuː ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/e0/8d/e08dacdc5c5eb7c33c618effab7faefd.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "grandfather",
+            "def": "n. 祖父,外祖父 ",
+            "pron": " 'græn(d)fɑːðə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4b/12/4b1298b7bac99bbca31a209dd083d68f.mp3"
+        },
+        {
+            "voa_id": "1020",
+            "word": "grandmother",
+            "def": "n. 祖母,外祖母",
+            "pron": " 'græn(d)mʌðə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/87/12/8712a7cad0a11672e803c299a51e8fe6.mp3"
+        },
+        {
+            "voa_id": "",
+            "word": "",
+            "def": "",
+            "pron": " ",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1022",
+            "word": "empty",
+            "def": "adj. 空的",
+            "pron": "  'emptɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/04/0e/040e5b963341afebd611e31b44efa9ca.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "box",
+            "def": "n. 盒子，箱子",
+            "pron": "bɒks",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/34/be/34be958a921e43d813a2075297d8e862.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "glass",
+            "def": "n. 杯子",
+            "pron": "glɑːs",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/25/70/2570c919f5ef1d7091f0f66d54dac974.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "cup",
+            "def": "n. 茶杯",
+            "pron": "kʌp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/e3/04/e30469816598e1e014ea4cedd9d403eb.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "bottle",
+            "def": "n. 瓶子",
+            "pron": "  'bɑtl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/3a/38/3a385ac07dcec4dde1a4ca47a9802c96.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "tin",
+            "def": "n. 罐头",
+            "pron": "tɪn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f9/d9/f9d98789f45765dd30ad1af0afd68e91.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "knife",
+            "def": "n. 刀子",
+            "pron": "naɪf",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4d/ee/4dee9a6f164559b66ea6ee5c4930b83e.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "fork",
+            "def": "n. 叉子",
+            "pron": "fɔːk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/b2/fc/b2fcb4ba898f479790076dbd5daa133f.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "spoon",
+            "def": "n. 勺子",
+            "pron": "spuːn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ed/14/ed142e1c2bce64a9b2820bc23092a68c.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "full",
+            "def": "adj. 满的",
+            "pron": "fʊl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f2/b2/f2b2cd7af7c926c88ef1f8c8299a1994.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "large",
+            "def": "adj. 大的",
+            "pron": "lɑːdʒ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/af/ac/afacdb0a401ccdf6b48551bbc00e8a74.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "little",
+            "def": "adj. 小的",
+            "pron": "  'lɪtl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/85/78/857883046d82ec0a10fc2f76873b6c6b.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "sharp",
+            "def": "adj. 尖的，锋利的",
+            "pron": "ʃɑːp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/a5/57/a557264a7d6c783f6fb57fb7d0b9d6b0.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "small",
+            "def": "adj. 小的",
+            "pron": "smɔːl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/28/f8/28f85b17ea70a68a37bb3b8387a7d672.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "big",
+            "def": "adj. 大的",
+            "pron": "bɪg",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/dd/3e/dd3eded85f7085dc92210aa496e92ba9.mp3"
+        },
+        {
+            "voa_id": "1022",
+            "word": "blunt",
+            "def": "adj. 钝的",
+            "pron": "blʌnt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/df/36/df3640897dc1a264ac2bb502dacf50c2.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "desk",
+            "def": "n. 课桌",
+            "pron": "desk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f4/fa/f4fa98794006925d59a71b8ef794f97a.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "floor",
+            "def": "n. 地板",
+            "pron": "flɔː",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/12/8c/128c6e0e56316f8bc4c051cf6aef09cd.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "table",
+            "def": "n. 桌子",
+            "pron": "  'teɪbəl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f7/a4/f7a459ab79daa76df3ea66245b23f3ee.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "plate",
+            "def": "n. 盘子",
+            "pron": "plet",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/5a/21/5a21852c383fc3c36cfba1f4e9f23dd3.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "dressing table",
+            "def": "n. 梳妆台",
+            "pron": " 'dresɪŋ tebl",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/3/1/e/31e91da38f759be68f40ce555ebd2d83.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "magazine",
+            "def": "n. 杂志",
+            "pron": "mægə 'ziːn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/40/14/4014e2d4452343d72a1937d002e8b5bc.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "bed",
+            "def": "n. 床",
+            "pron": "bed",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/19/af/19af43896e5b0e7e4d6722a4d7a554b1.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "cupboard",
+            "def": "n. 食厨",
+            "pron": " 'kʌbəd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/40/64/4064e7bf8db506901570e4562b6a03fb.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "cigarette",
+            "def": "n. 香烟",
+            "pron": " ˌsɪgə'ret",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/c5/90/c5908e6da2b29bfc0895472e3cd1abb0.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "television",
+            "def": "n. 电视机",
+            "pron": " 'telɪvɪʒn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/08/70/0870760121e52cfdaca3ce13f1978aa7.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "newspaper",
+            "def": "n. 报纸",
+            "pron": " 'njuːspeɪpə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/75/a0/75a001c1da9eb64f67708986f0c53087.mp3"
+        },
+        {
+            "voa_id": "1024",
+            "word": "stereo",
+            "def": "n. 立体声音响",
+            "pron": " 'sterɪəʊ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4e/86/4e86fa6bbd4b6e26eec3d6ea8ddba8af.mp3"
+        },
+        {
+            "voa_id": "1026",
+            "word": "where",
+            "def": "在哪里",
+            "pron": "weə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/56/79/567904efe9e64d9faf3e41ef402cb568.mp3"
+        },
+        {
+            "voa_id": "1026",
+            "word": "in",
+            "def": "在. . . 里",
+            "pron": "ɪn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4e/f0/4ef01a05c2a045f1ef6f7b5f20e72dfd.mp3"
+        },
+        {
+            "voa_id": "1028",
+            "word": "trousers",
+            "def": "n. 裤子，长裤",
+            "pron": " 'traʊzəz",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/b8/cd/b8cd899677b3292af10708e82cf2eed2.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "empty",
+            "def": "v. 倒空，使 变空",
+            "pron": " 'emptɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/04/0e/040e5b963341afebd611e31b44efa9ca.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "read",
+            "def": "v. 读",
+            "pron": "ri:d",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/20/8c/208c2d03fa0eb467b1433054e22928be.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "take off",
+            "def": "脱掉",
+            "pron": " 'teɪk-ɒf",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/e5/4f/e54f0f6c95f9f9bd43ea0e266b0ef4ca.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "turn on",
+            "def": "开(电灯)",
+            "pron": "tə:n-ɒn",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/b/1/9/b197375d9ebab835d23fd69d05cf3eb6.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "turn off",
+            "def": "关(电灯)",
+            "pron": "tə:n-ɒf",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/5/4/6/546fa8c1eeaa45d4f018b8f53d64bb10.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "sharpen",
+            "def": "v. 削尖，使锋利",
+            "pron": " 'ʃɑːpən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/69/d4/69d4bb17f27c77514f91f524ecae24d0.mp3"
+        },
+        {
+            "voa_id": "1030",
+            "word": "put on",
+            "def": "穿上",
+            "pron": "pʊt-ɒn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/eb/d3/ebd3e097113faefd1925035941e048f0.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "type",
+            "def": "v. 打字",
+            "pron": "taɪp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/c8/a3/c8a339fb85b3f16dce85e9e5de53d1eb.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "tooth",
+            "def": "n. 牙齿",
+            "pron": "tuːθ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d3/38/d338bd9790ad3aa845ba7c9a3233dfef.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "teeth",
+            "def": "复数，牙齿",
+            "pron": "ti:θ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/1e/5c/1e5c15180cbd0ddbc7e709b7643e96b9.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "cook",
+            "def": "v. 做(饭菜)",
+            "pron": " 'kʊk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/31/f6/31f69dc52a571fc11f9799f1a4b79458.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "milk",
+            "def": "n. 牛奶",
+            "pron": "mɪlk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ec/bd/ecbdb882ae865a07d87611437fda0772.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "meal",
+            "def": "n. 饭，一顿饭",
+            "pron": "miːl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ab/50/ab506e288b0e9f65068d883f7202d478.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "drink",
+            "def": "v. 喝",
+            "pron": "drɪŋk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/aa/11/aa11cee0b422c94d060b7ab241cef632.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "tap",
+            "def": "n. (水)龙头",
+            "pron": "tæp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/48/00/4800d586a2c17742f0c7e47856b9d6cf.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "letter",
+            "def": "n. 信",
+            "pron": " 'letə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/db/8e/db8ed4deb480d96f94f5c356073cd0c7.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "basket",
+            "def": "n. 篮子",
+            "pron": " 'bɑːskɪt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/10/84/1084d702fe642f62bd3100b00946cd82.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "eat",
+            "def": "v. 吃",
+            "pron": "iːt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ac/08/ac0819963e7cacd638067fb75f92e423.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "bone",
+            "def": "n. 骨头",
+            "pron": "baʊn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/a5/7f/a57fc812a9521b8c0ede9a2724351a55.mp3"
+        },
+        {
+            "voa_id": "1032",
+            "word": "clean",
+            "def": "v. 清洗",
+            "pron": "klin",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f3/e0/f3e0c9b789531c0f8ef74eaed1cbc690.mp3"
+        },
+        {
+            "voa_id": "1034",
+            "word": "sleep",
+            "def": "v. 睡觉",
+            "pron": "slip",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f0/41/f0412f976c888e472694c569e11fde82.mp3"
+        },
+        {
+            "voa_id": "1034",
+            "word": "shave",
+            "def": "v. 刮脸",
+            "pron": "ʃeɪv",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ce/1d/ce1db51dd0c27f4c9d3df179544b3a04.mp3"
+        },
+        {
+            "voa_id": "1034",
+            "word": "cry",
+            "def": "v. 哭，喊",
+            "pron": "kraɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/7c/ea/7cea475f769cc3ac9c14d410b91ae80c.mp3"
+        },
+        {
+            "voa_id": "1034",
+            "word": "wash",
+            "def": "v. 洗",
+            "pron": "wɒʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/15/c7/15c74daa224f69d40cf879d573981d67.mp3"
+        },
+        {
+            "voa_id": "1034",
+            "word": "wait",
+            "def": "v. 等",
+            "pron": "weɪt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/29/ee/29ee4a62332e78b6dbb0c31842d0b154.mp3"
+        },
+        {
+            "voa_id": "1034",
+            "word": "jump",
+            "def": "v. 跳",
+            "pron": "dʒʌmp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/2a/3e/2a3ef38cec466ade9070f748d3d963ef.mp3"
+        },
+        {
+            "voa_id": "1036",
+            "word": "beside",
+            "def": "prep. 在. . .旁",
+            "pron": "bɪ'saɪd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f8/08/f808933cb2064fa238f103d7606d8994.mp3"
+        },
+        {
+            "voa_id": "1036",
+            "word": "off",
+            "def": "prep. 离开",
+            "pron": "ɒf",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/3/2/6/3262d48df5d75e3452f0f16b313b7808.mp3"
+        },
+        {
+            "voa_id": "1038",
+            "word": "homework",
+            "def": "n. 作业",
+            "pron": " 'həʊmwɜːk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/16/58/1658f7f069a5f7461736e847f22a8ce9.mp3"
+        },
+        {
+            "voa_id": "1038",
+            "word": "listen",
+            "def": "v. 听",
+            "pron": " 'lɪsən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/52/54/52547e78abd6313562da59987a927669.mp3"
+        },
+        {
+            "voa_id": "1038",
+            "word": "dish",
+            "def": "n. 盘子，碟子",
+            "pron": "dɪʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/c4/ff/c4fff13aedc2603e5b5875846fd83a9d.mp3"
+        },
+        {
+            "voa_id": "1040",
+            "word": "show",
+            "def": "v. 给. . . 看",
+            "pron": "ʃəʊ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/a7/dd/a7dd12b1dab17d25467b0b0a4c8d4a92.mp3"
+        },
+        {
+            "voa_id": "1040",
+            "word": "take",
+            "def": "v. 带给",
+            "pron": "teɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/46/95/469545f41eb4ebc0a82ff4d95bb69f86.mp3"
+        },
+        {
+            "voa_id": "1040",
+            "word": "send",
+            "def": "v. 运给",
+            "pron": "send",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/cf/dc/cfdcd587763142a5117cb97922f4e545.mp3"
+        },
+        {
+            "voa_id": "1042",
+            "word": "bird",
+            "def": "n. 鸟",
+            "pron": "bɜːd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ab/ae/abaecf8ca3f98dc13eeecbac263cd3ed.mp3"
+        },
+        {
+            "voa_id": "1042",
+            "word": "any",
+            "def": "det. 一些",
+            "pron": " 'enɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/6e/0a/6e0a1fa64b577a8bd8b7e6d40b478353.mp3"
+        },
+        {
+            "voa_id": "1042",
+            "word": "some",
+            "def": "det. 一些",
+            "pron": "sʌm",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ed/b2/edb2c4ec11610bc1670333faaecf52d7.mp3"
+        },
+        {
+            "voa_id": "1046",
+            "word": "lift",
+            "def": "v. 拿起，搬起，举起",
+            "pron": "lɪft",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/79/09/79090bacf4a57fa20923c272bf12e5c1.mp3"
+        },
+        {
+            "voa_id": "1046",
+            "word": "cake",
+            "def": "n. 饼，蛋糕",
+            "pron": "keɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/6e/4b/6e4bc26a0ef7e51ff1c24b994401c1e7.mp3"
+        },
+        {
+            "voa_id": "1046",
+            "word": "biscuit",
+            "def": "n. 饼干",
+            "pron": " 'bɪskɪt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/28/f5/28f5b418f3575fd8744a8ec3baf49b4e.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "sweet",
+            "def": "adj. 甜的",
+            "pron": "swiːt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d3/70/d370c372929266ef162f253c6d27baad.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "fresh",
+            "def": "adj. 新鲜的",
+            "pron": "freʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/df/fb/dffba9d17869c9c76c40b7fc96a3c657.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "egg",
+            "def": "n. 鸡",
+            "pron": "eg",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/61/ee/61ee7b64cd37ff088a52a8ec5f0b8265.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "butter",
+            "def": "n. 黄油",
+            "pron": " 'bʌtə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/52/7d/527d4a1cfbd50e94deac177ddc1e7941.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "pure",
+            "def": "adj. 纯净的",
+            "pron": "pjʊə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/6b/34/6b341881ce7c5bfb0fbbbe7171f27cdc.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "honey",
+            "def": "n. 蜂蜜",
+            "pron": " 'hʌnɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/9c/4a/9c4a2764425b6c98cb5e87fc91ccd4cd.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "ripe",
+            "def": "adj. 成熟的",
+            "pron": "raɪp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/40/e7/40e7d9039cda320641ebb8f470ca639b.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "banana",
+            "def": "n. 香蕉",
+            "pron": "bə 'nɑːnə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/72/b3/72b302bf297a228a75730123efef7c41.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "jam",
+            "def": "n. 果酱",
+            "pron": "dʒæm",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/0b/ab/0babc0ce6eb892498fe00adbf2299f94.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "orange",
+            "def": "n. 橙",
+            "pron": " 'ɒrɪndʒ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/7d/9a/7d9a2fe873a7d3712b01e3fe67308497.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "Scorch whisky",
+            "def": "苏格兰威士忌",
+            "pron": "skɔːtʃ- 'wiski",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1048",
+            "word": "choice",
+            "def": "adj. 上等的，精选的",
+            "pron": "tʃɒɪs",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/63/14/63149479546b0bdebfe7d832bd92ec2a.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "apple",
+            "def": "n. 苹果",
+            "pron": " 'æpl",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/44/29/44297283b5e4b5b0a991213897f0b14a.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "wine",
+            "def": "n. 酒，果酒",
+            "pron": "waɪn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/01/d5/01d56d1f8f37851be7b1fca1b36f9e55.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "beer",
+            "def": "n. 啤酒",
+            "pron": "bɪə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/3e/18/3e1867f5aee83045775fbe355e6a3ce1.mp3"
+        },
+        {
+            "voa_id": "1048",
+            "word": "blackboard",
+            "def": "n. 黑板",
+            "pron": "blakba:d",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/0c/c4/0cc442bd0c99f16ddbf98d5c7abbd49e.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "tomato",
+            "def": "n. 西红柿",
+            "pron": "təˈmeɪtəʊ",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/0/0/6/006f87892f47ef9aa60fa5ed01a440fb.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "bean",
+            "def": "n. 豆角",
+            "pron": "bi:n",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/8e/3f/8e3f6c00aa8556edaee8c9b28d7937a2.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "potato",
+            "def": "n. 土豆",
+            "pron": "pə'teɪtəʊ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/df/b0/dfb0a25e7bc928bd33ddbe52bbf85b9c.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "pear",
+            "def": "n. 梨",
+            "pron": "pea",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/88/93/8893dc16b1b2534bab7b03727145a2bb.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "cabbage",
+            "def": "n. 卷心菜",
+            "pron": " ˈkæbɪdʒ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ab/01/ab015156b11df58ced4ea42e9e447aed.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "grape",
+            "def": "n. 葡萄",
+            "pron": "greɪp",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/28/b1/28b1a8d394c82031117ccb36cb967631.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "lettuce",
+            "def": "n. 莴苣",
+            "pron": "'letɪs",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/28/36/283684da1d6837f7f17845bb7c9e7bbd.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "peach",
+            "def": "n. 桃",
+            "pron": "piːtʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d1/8d/d18da1fb8c95df57148b7a3bf0a4988d.mp3"
+        },
+        {
+            "voa_id": "1050",
+            "word": "pea",
+            "def": "n. 豌豆",
+            "pron": "piː",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/91/de/91de2738d901c90f6b58a78afcafcad0.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "the U.S.",
+            "def": "美国",
+            "pron": "",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1052",
+            "word": "Italy",
+            "def": "n. 意大利",
+            "pron": "'ɪtəlɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ba/b4/bab4ac375adad13f5693f24fceab7903.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "Brazil",
+            "def": "n. 巴西",
+            "pron": "brə'zil",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1052",
+            "word": "Norway",
+            "def": "n. 挪威",
+            "pron": "nɔ:weɪ",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1052",
+            "word": "Holland",
+            "def": "n. 荷兰",
+            "pron": "'hɒlənd",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/6/7/e/67eb2b8d0aab60ec69666532ff9527c9.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "Russia",
+            "def": "n. 俄罗斯",
+            "pron": "'rʌʃə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/1c/62/1c625cc86f824660a320d185916e3c55.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "England",
+            "def": "n. 英国",
+            "pron": " ˈɪŋɡlənd",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/6/4/f/64f607906be7598a02d75dbc1e979662.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "Spain",
+            "def": "n. 西班牙",
+            "pron": "spein",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/9/0/7/907eba32d950bfab68227fd7ea22999b.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "France",
+            "def": "n. 法国",
+            "pron": "frɑːns",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/e1/65/e165d4f2174b66a7d1a95cb204d296eb.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "Sweden",
+            "def": "n. 瑞典",
+            "pron": "'swidən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/88/e5/88e52ee42fd090896f69d0d71e339d94.mp3"
+        },
+        {
+            "voa_id": "1052",
+            "word": "Germany",
+            "def": "n. 德国",
+            "pron": " ˈdʒɜːməni",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/d/8/b/d8b00929dec65d422303256336ada04f.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Australia",
+            "def": "n. 澳大利亚",
+            "pron": "ɒ'streɪlɪə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/fb/2a/fb2a54d637484c4ca8adb2343237b89f.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Japan",
+            "def": "n. 日本",
+            "pron": "dʒə'pæn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/57/8e/578ed5a4eecf5a15803abdc49f6152d6.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Australian",
+            "def": "n. 澳大利亚人",
+            "pron": "ɑ'strelɪən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/57/8e/578ed5a4eecf5a15803abdc49f6152d6.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Nigeria",
+            "def": "n. 尼日利亚",
+            "pron": "nai'dʒiəriə",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1054",
+            "word": "Austria",
+            "def": "n. 奥地利",
+            "pron": " ˈɒstrɪə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/6c/d0/6cd0c266688a7a579874167d67c74a66.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Nigerian",
+            "def": "n. 尼日利亚人",
+            "pron": "nai'dʒiəriən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/26/8a/268a304cbfb271fe0117e5f680d35d14.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Austrian",
+            "def": "n. 奥地利人",
+            "pron": "ɔstriən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/76/47/7647ba5010d47691a6739dfb018ba325.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Turkey",
+            "def": "n. 土耳其",
+            "pron": " ˈtɜ:ki",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/db/77/db77174aa34ded1b6139455a58d0a38b.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Canada",
+            "def": "n. 加拿大",
+            "pron": "'kænədə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/c2/aa/c2aadac2ca30ca8aadfbe331ae180d28.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Turkish",
+            "def": "n. 土耳其人",
+            "pron": "ˈtɜ:kɪʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/7a/74/7a74a6bc6f9bf978060a2f5301a4822f.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Canadian",
+            "def": "n. 加拿大人",
+            "pron": "kə'neɪdɪən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/6f/14/6f146c39f19f031787ade098f9360e47.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Korea",
+            "def": "n. 韩国",
+            "pron": "kə'rɪə",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/a/8/f/a8f809c99c4a996780c3046b9b594195.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "China",
+            "def": "n. 中国",
+            "pron": " ˈtʃaɪnə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/a0/a3/a0a35b0e2945bed2fec58de514a1c684.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Polish",
+            "def": "n. 波兰人",
+            "pron": "'pɒlɪʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d1/63/d1630aa1d8c7c8ddfd936ee60de7c71b.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Finland",
+            "def": "n. 芬兰",
+            "pron": "'finlənd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/63/1d/631d44eaa1254ff71a1e11ba021d1266.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Poland",
+            "def": "n. 波兰",
+            "pron": "'pəulənd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/6f/08/6f08c5ddcdd0be06d83aa3e0e3d5a09e.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Finnish",
+            "def": "n. 芬兰人",
+            "pron": "'finiʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/48/8f/488f3a4d39c5803e5cc99f1c3d13bf31.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Thai",
+            "def": "n. 泰国人",
+            "pron": "taɪ",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1054",
+            "word": "India",
+            "def": "n. 印度",
+            "pron": "'ɪndɪə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/11/a9/11a98374ebec8e0c7a54751d2161804d.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Thailand",
+            "def": "n. 泰国",
+            "pron": "'taɪlænd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/86/89/8689391a8b93cd2d55ccf3f436eef4e2.mp3"
+        },
+        {
+            "voa_id": "1054",
+            "word": "Indian",
+            "def": "n. 印度人",
+            "pron": "'ɪndɪən",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/b0/b4/b0b41999db8cbe63c7ae564e65852b66.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "headache",
+            "def": "n. 头痛",
+            "pron": "'hedeɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4a/df/4adf015820bb2fe5960b9c2d44b5654e.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "medicine",
+            "def": "n. 药",
+            "pron": " ˈmedsn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/73/56/73566cc2f83b3a6752595dd4f89f45ee.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "aspirin",
+            "def": "n. 阿斯匹林",
+            "pron": "æsprɪn",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/4a/60/4a60c6bc0b7b2467e86fff6894d725cd.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "temperature",
+            "def": "n. 温度",
+            "pron": " ˈtemprətʃər",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/29/cb/29cbf036a08dc77eae282ccab1397b81.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "earache",
+            "def": "n. 耳痛",
+            "pron": "'ɪəreɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/cd/9c/cd9ca466c91393d3c450531b9842c85a.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "flu",
+            "def": "n. 流行性感冒",
+            "pron": "fluː",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/da/fd/dafdb581b0bb42a3c1e3ad636d9d5dff.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "toothache",
+            "def": "n. 牙痛",
+            "pron": "'tuːθeɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/2e/3d/2e3d98a384c9af1afb9ed187448ff6ea.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "measles",
+            "def": "n. 麻疹",
+            "pron": "'mizəlz",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d6/9e/d69e0d26e3e448ca08ca42349d1bc768.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "dentist",
+            "def": "n. 牙医",
+            "pron": "'dentɪst",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/b0/e9/b0e972cf13d19b2c3dbfa50edbc4d86a.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "mumps",
+            "def": "n. 腮腺炎",
+            "pron": "mʌmps",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/33/7d/337dda2a0ba8585aaed758101160ae9d.mp3"
+        },
+        {
+            "voa_id": "1062",
+            "word": "stomach ache",
+            "def": "胃痛",
+            "pron": " ˈstʌmək eɪk",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/2/5/8/258e153e8ed428702cfc67ac79272e3d.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "play",
+            "def": "v. 玩",
+            "pron": "pleɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/e8/fc/e8fca41a7acc4d3b3bb65bf517f39644.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "so",
+            "def": "adv. 如此地",
+            "pron": "səʊ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/b8/07/b807023f87e63b8ada92f79f546ff9cc.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "match",
+            "def": "n. 火柴",
+            "pron": "mætʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/23/75/2375181e1c9e29e00e9a7b6f68a28312.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "quickly",
+            "def": "adv. 快地",
+            "pron": "'kwɪklɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/87/5e/875eca947738c03753b192efff187c0b.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "talk",
+            "def": "v. 谈话",
+            "pron": "tɔːk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/24/24/24242abcd3997d99beec3d0050e9df77.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "lean out of",
+            "def": "身体探出",
+            "pron": "",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/8/9/7/8977750cc2e860e9868560ab23ac84f1.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "library",
+            "def": "n. 图书馆",
+            "pron": " ˈlaɪbrərɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ae/72/ae726031961cdf648d30175a48b273b9.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "break",
+            "def": "v. 打破",
+            "pron": "breɪk",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/82/6f/826f948851bb9ca500f14b8b0962823b.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "drive",
+            "def": "v. 开车",
+            "pron": "draɪv",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/8d/a2/8da230dbd326612d3b4c5cd6b88643da.mp3"
+        },
+        {
+            "voa_id": "1064",
+            "word": "noise",
+            "def": "n. 喧闹",
+            "pron": "nɔɪz",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/68/97/689715eebe38c4394acc61b2553c2032.mp3"
+        },
+        {
+            "voa_id": "1066",
+            "word": "myself",
+            "def": "pron. 我自己",
+            "pron": "maɪ'self",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/44/1e/441e569fb88532df0a9cc61c753adb07.mp3"
+        },
+        {
+            "voa_id": "1066",
+            "word": "himself",
+            "def": "pron. 他自己",
+            "pron": "hɪm'self",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/2c/83/2c838a6282a61b9f1c018d2b7147899b.mp3"
+        },
+        {
+            "voa_id": "1066",
+            "word": "themselves",
+            "def": "pron. 他们自己",
+            "pron": "ðəm'selvz",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/1a/43/1a431be57aaa9be5f9f314d04ca36350.mp3"
+        },
+        {
+            "voa_id": "1066",
+            "word": "herself",
+            "def": "pron. 她自己",
+            "pron": "hɜː'self",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ab/b3/abb3fa45e2341898d06f2ffaca0114cf.mp3"
+        },
+        {
+            "voa_id": "1068",
+            "word": "church",
+            "def": "n. 教堂",
+            "pron": "tʃɜːtʃ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/91/65/916586c8ac87cf1a18ea5d004facb87e.mp3"
+        },
+        {
+            "voa_id": "1068",
+            "word": "baker",
+            "def": "n. 面包师傅",
+            "pron": "'beɪkə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/a3/c9/a3c9a664ba024f7ff15240b70d14ec7a.mp3"
+        },
+        {
+            "voa_id": "1068",
+            "word": "dairy",
+            "def": "n. 乳品店",
+            "pron": "'deərɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/80/1f/801f18857521e5f358f98e299428724f.mp3"
+        },
+        {
+            "voa_id": "1068",
+            "word": "grocer",
+            "def": "n. 食品杂货商",
+            "pron": "'grəʊsə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/52/0e/520e747dba77d483be8125a876b6b2d1.mp3"
+        },
+        {
+            "voa_id": "1070",
+            "word": "stationer",
+            "def": "n. 文具商",
+            "pron": "'steɪʃənə",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/0e/df/0edf8c4e102d6ce168904b6c13c5f8e9.mp3"
+        },
+        {
+            "voa_id": "1070",
+            "word": "Denmark",
+            "def": "n. 丹麦",
+            "pron": "'denma:k",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/e9/37/e9375700acbb6b42ae4101daa00b0c20.mp3"
+        },
+        {
+            "voa_id": "1074",
+            "word": "hurriedly",
+            "def": "adv. 匆忙地",
+            "pron": "'hʌrɪdli",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/9/6/e/96ea2174865b93e61f71124ec5b50112.mp3"
+        },
+        {
+            "voa_id": "1074",
+            "word": "go",
+            "def": "v. 走",
+            "pron": "gəʊ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/34/d1/34d1f91fb2e514b8576fab1a75a89a6b.mp3"
+        },
+        {
+            "voa_id": "1074",
+            "word": "cut",
+            "def": "v. 割,切",
+            "pron": "kʌt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d7/c0/d7c0229758f1556bc68cbc61a19a2554.mp3"
+        },
+        {
+            "voa_id": "1074",
+            "word": "greet",
+            "def": "v. 问候,打招呼",
+            "pron": "griːt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/24/fc/24fc6673cc478ed9495490e12904201e.mp3"
+        },
+        {
+            "voa_id": "1074",
+            "word": "thirstily",
+            "def": "adv. 口渴地",
+            "pron": "θɜːstɪlɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ac/d9/acd9d3d83a12d3a94a67dea3dedea108.mp3"
+        },
+        {
+            "voa_id": "1080",
+            "word": "groceries",
+            "def": "n. 食品杂货商",
+            "pron": "'grəʊsərɪz",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/7/0/d/70dae963ec72af0a35efe7233bed1a5a.mp3"
+        },
+        {
+            "voa_id": "1080",
+            "word": "newsagent",
+            "def": "n. 报刊零售人",
+            "pron": "'njuːzeɪdʒənt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/59/58/595808c5be0c2ba131cc91c79d151ca8.mp3"
+        },
+        {
+            "voa_id": "1080",
+            "word": "fruit",
+            "def": "n. 水果",
+            "pron": "fruːt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/89/43/894355061efb04cb329cfc97481d127a.mp3"
+        },
+        {
+            "voa_id": "1080",
+            "word": "chemist",
+            "def": "n. 约剂师,化学家",
+            "pron": "'kemɪst",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/92/d3/92d377f19923a53d16521e631ab5798f.mp3"
+        },
+        {
+            "voa_id": "1080",
+            "word": "stationery",
+            "def": "n. 文具",
+            "pron": "'steʃənɛri",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/76/43/764312cbc53891190bf723bb9ef2ce75.mp3"
+        },
+        {
+            "voa_id": "1082",
+            "word": "breakfast",
+            "def": "n. 早饭",
+            "pron": " 'brekfəst",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/0b/25/0b255d53ffea1aa5bc7b885fed27a5a2.mp3 "
+        },
+        {
+            "voa_id": "1082",
+            "word": "party ",
+            "def": "n. 聚会",
+            "pron": " 'pɑːtɪ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/1a/ab/1aab23051b24582c5dc8e23fc595d505.mp3"
+        },
+        {
+            "voa_id": "1082",
+            "word": "haircut",
+            "def": "n. 理发",
+            "pron": " 'heəkʌt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/8c/64/8c644a8a0a0cb9aea630f851a1db74fd.mp3"
+        },
+        {
+            "voa_id": "1082",
+            "word": "holiday",
+            "def": "n. 假日",
+            "pron": " 'hɒlɪdi",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/f1/6b/f16b45d8a368e6992893aa3aef4d6b37.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Athens ",
+            "def": "n. 雅典",
+            "pron": "ˈæθɪnz",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1094",
+            "word": "Rome ",
+            "def": "n. 罗马",
+            "pron": "rəum",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/60/d9/60d99e58d66a5e0f4f89ec3ddd1d9a80.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Berlin ",
+            "def": "n. 柏林",
+            "pron": "bə:ˈlɪn",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/d/3/5/d35a02eb49149450fb2fffc6e467eb37.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Seoul ",
+            "def": "n. 首尔",
+            "pron": " səʊl  ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/d7/93/d793880d5ba70feb1c2e259d1a373add.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Bombay  ",
+            "def": "n. 孟买",
+            "pron": "bɔm'bei ",
+            "examples": "",
+            "audio": ""
+        },
+        {
+            "voa_id": "1094",
+            "word": "Stockholm   ",
+            "def": "n. 斯德哥尔摩",
+            "pron": "ˈstɒkhəʊm  ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ed/cd/edcd259e0a03c7ab70feb186bae19f13.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Geneva",
+            "def": "n. 日内瓦",
+            "pron": "dʒi'ni:və ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/65/51/65519c02a520080aafce959556b62e94.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Sydney ",
+            "def": "n. 悉尼",
+            "pron": "ˈsɪdni ",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/1/f/c/1fc91e86962825bb745de53d1657b3e4.mp3"
+        },
+        {
+            "voa_id": "1094",
+            "word": "Moscow ",
+            "def": "n. 莫斯科",
+            "pron": " 'mɔskəʊ ",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/1/f/c/1fc91e86962825bb745de53d1657b3e4.mp3"
+        },
+        {
+            "voa_id": "1100",
+            "word": "licence ",
+            "def": "n. 执照 ",
+            "pron": " 'laɪsəns",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/06/f3/06f3254096cb8c9db4c59d0485b97d63.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "clever ",
+            "def": "adj. 聪明的",
+            "pron": " 'klevə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/3e/db/3edbd18cbf579a0bd6178937b090a621.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "loud",
+            "def": "adj. 大声的",
+            "pron": "laʊd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d6/6b/d66b182bfb28d13c5fdb0d13957c9fe6.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "stupid",
+            "def": "adj. 笨的",
+            "pron": " 'stjuːpɪd",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/0d/fb/0dfb22ee9e3f1ed35aab25ab5f9eaca1.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "high",
+            "def": "adj. 高的",
+            "pron": "hai",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/1f/6a/1f6aa8ec5706f5e76ad59241e8bdcf76.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "cheap",
+            "def": "adj. 便宜的",
+            "pron": " tʃiːp ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/ea/e8/eae8bff5c82a1e00df057888e88e0823.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "hard ",
+            "def": "adj. 硬的",
+            "pron": "haːd ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/d6/4a/d64a84456adc959f56de6af685d0dadd.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "expensive ",
+            "def": "adj. 贵的",
+            "pron": "ik'spensiv ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/7f/b4/7fb42a8d4828b3aa6f9edf48c3b7f1b0.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "sweet ",
+            "def": "adj. 甜的",
+            "pron": "swi:t ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d3/70/d370c372929266ef162f253c6d27baad.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "fresh ",
+            "def": "adj. 新鲜的",
+            "pron": "freʃ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/df/fb/dffba9d17869c9c76c40b7fc96a3c657.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "soft ",
+            "def": "adj. 软的",
+            "pron": "sɒft ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/dc/58/dc58a7971816b41f3cc2b8c0f5f1bf0c.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "stale ",
+            "def": "adj. 不新鲜的,变味的",
+            "pron": "steil",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/39/09/3909b131ac1491f12f1e2c31025f31c4.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "sour ",
+            "def": "adj. 酸的",
+            "pron": "saʊə ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/d9/d5/d9d582e761a34541cdc0b301b7955763.mp3"
+        },
+        {
+            "voa_id": "1104",
+            "word": "low ",
+            "def": "adj. 低的,矮的",
+            "pron": "ləʊ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/53/cc/53cced8d281a1a0ace3cb6594daaa4f7.mp3"
+        },
+        {
+            "voa_id": "1106",
+            "word": "carry ",
+            "def": "v. 带",
+            "pron": " 'kæri ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/b5/de/b5dee43f539882745ee0b7b18bed58e6.mp3"
+        },
+        {
+            "voa_id": "1106",
+            "word": "correct",
+            "def": "v. 改正, 纠正",
+            "pron": "kə'rekt",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/0e/b6/0eb6dbb982bab8fde864eb6037e0ad11.mp3"
+        },
+        {
+            "voa_id": "1106",
+            "word": "keep ",
+            "def": "v. 保存,保留",
+            "pron": "ki:p ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/e7/d8/e7d873ca846c07fd3e07c65803b4515f.mp3"
+        },
+        {
+            "voa_id": "1110",
+            "word": "most ",
+            "def": "adj. (many. much的最高级)最多的",
+            "pron": "məʊst ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/f7/c0/f7c0a09108cdf26287c1bc5af2ed1f93.mp3"
+        },
+        {
+            "voa_id": "1110",
+            "word": "worse ",
+            "def": "adj. (bad的比较级)更坏的",
+            "pron": "wəːs ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/ee/f8/eef863429cf4f39d1c2156707895b7c8.mp3"
+        },
+        {
+            "voa_id": "1110",
+            "word": "least",
+            "def": "adj. little的最高级)最小的,最少的",
+            "pron": "liːst ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/17/c1/17c114c59326b328ab989f8a4c3329dc.mp3"
+        },
+        {
+            "voa_id": "1110",
+            "word": "worst ",
+            "def": "adj. (bad的最高级)最坏的",
+            "pron": "wə:st ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/f5/f4/f5f46a62bde5dd979c0652f06d716a9e.mp3"
+        },
+        {
+            "voa_id": "1110",
+            "word": "best ",
+            "def": "adj. (good的最高级)最好的",
+            "pron": "best",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/75/bb/75bbfd4f72c6d744afc510ecc32cc218.mp3"
+        },
+        {
+            "voa_id": "1116",
+            "word": "asleep ",
+            "def": "adj.睡觉,睡着(用作表语)",
+            "pron": "ə'sli:p",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/e7/cb/e7cb8b1b7e02da77da058534981b1c08.mp3"
+        },
+        {
+            "voa_id": "1116",
+            "word": "glasses",
+            "def": "n. 眼镜",
+            "pron": " 'gla:siz",
+            "examples": "",
+            "audio": "http://res-tts.iciba.com/2/1/5/215207dff5e2c3eb82cd02232b1cb9fe.mp3"
+        },
+        {
+            "voa_id": "1122",
+            "word": "road",
+            "def": "n. 路",
+            "pron": "rəʊd ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/0/0/3c/68/3c68cbe461787ba38509df85e731f1a6.mp3"
+        },
+        {
+            "voa_id": "1124",
+            "word": "kitten ",
+            "def": "n. 小猫",
+            "pron": " 'kɪtn ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/72/69/72691fd95cff73afb75e4badcfe71d5f.mp3"
+        },
+        {
+            "voa_id": "1126",
+            "word": "immediately",
+            "def": "adv. 立即地",
+            "pron": "ɪ'miːdɪətlɪ ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/a5/57/a557752c32ad50d06be21fb76695d101.mp3"
+        },
+        {
+            "voa_id": "1142",
+            "word": "worried ",
+            "def": "adj. 担心的,担忧的",
+            "pron": " 'wʌrɪd ",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/18/0c/180c41c4959a221ad9d0a3f1ab5b6280.mp3"
+        },
+        {
+            "voa_id": "1142",
+            "word": "regularly",
+            "def": "adv. 经常地，定期地",
+            "pron": " 'reɡjʊləli",
+            "examples": "",
+            "audio": "http://res.iciba.com/resource/amp3/oxford/0/3f/19/3f1919673a9864aeb90db34a1236bd78.mp3"
+        }
+    ]

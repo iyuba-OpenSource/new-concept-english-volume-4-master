@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/re_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/word_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="become"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headline_collect_not"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_en_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word_key"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:src="@drawable/speaker" />
+        <TextView
+            android:id="@+id/en_pron"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:text="sss"
+            android:textColor="@color/text_gray_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_am_speaker_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ll_en_speaker"
+        android:layout_alignTop="@+id/ll_en_speaker"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:src="@drawable/speaker" />
+        <TextView
+            android:id="@+id/am_pron_right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:text="sss"
+            android:textColor="@color/text_gray_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_am_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_en_speaker"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:src="@drawable/speaker" />
+        <TextView
+            android:id="@+id/am_pron"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:text="sss"
+            android:textStyle="bold"
+            android:textColor="@color/text_gray_color"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/word_def"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_below="@+id/ll_am_speaker"
+        android:layout_marginLeft="25dp"
+        android:text="变为,成为;变得,编程"
+        android:textColor="@color/text_gray_color"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/pron_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:text="美式"
+            android:textColor="#ededed"
+            android:textSize="11dp"
+            app:rv_backgroundColor="@color/app_color"
+            app:rv_backgroundPressColor="@color/text_gray_color"
+            app:rv_cornerRadius="3dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
